@@ -243,11 +243,12 @@
 
 #define SCRIPT_GENERATE_BOOTARGS "script_generate_bootargs=" \
 	"setenv bootargs " \
-		"root=/dev/mmcblk${boot_kdevnum}p3 " \
+		"root=/dev/mmcblk1p3 " \
 		"rootwait " \
 		"ro " \
 		"console=ttySAC3,${baudrate} " \
 		"cros_legacy " \
+		"verbose " \
 		"debug " \
 		"earlyprintk " \
 		"" \
@@ -256,21 +257,22 @@
 /* Default boot commands for ChromeOS booting. */
 #define CONFIG_BOOTCOMMAND \
 	"run script_generate_bootargs; " \
-	"mmc rescan ${boot_udevnum}; " \
-	"fatload mmc ${boot_udevnum}:c ${loadaddr} ${boot_kernelname}; " \
-	"bootm ${loadaddr}; " \
+	"mmc dev 1; " \
+	"mmc rescan 1; " \
+	"mmc read 40007000 A000 1BDB; " \
+	"mmc read 42000000 BBDB 38; " \
+	"bootm 40007000 - 42000000; " \
 	""
 
 /* Define a basic bootargs for CHROMEOS_BOOTARGS */
-#define CONFIG_BOOTARGS "console=ttySAC3," STRINGIFY(CONFIG_BAUDRATE)
+#define CONFIG_BOOTARGS "console=ttySAC3," STRINGIFY(CONFIG_BAUDRATE) "cros_legacy verbose debug earlyprintk root=/dev/mmcblk1p3 rootwait rw lsm.module_locking=0"
 
 #define CONFIG_EXTRA_ENV_SETTINGS \
 	EXYNOS_DEVICE_SETTINGS \
 	SCRIPT_GENERATE_BOOTARGS \
 	\
-	"boot_udevnum=0\0" \
+	"boot_udevnum=1\0" \
 	"boot_kdevnum=1\0" \
-	"boot_kernelname=vmlinuz.uimg.a\0" \
 	""
 
 #endif	/* __CONFIG_H */

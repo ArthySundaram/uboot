@@ -80,7 +80,7 @@
  *   extra_bootargs: Filled in by update_firmware_vars.py script in some cases.
  */
 #define CONFIG_REGEN_ALL_SETTINGS \
-	"common_bootargs=cros_legacy " CONFIG_DIRECT_BOOTARGS "\0" \
+	"common_bootargs=cros_legacy console=ttySAC3,115200 debug verbose earlyprintk root=/dev/mmcblk1p3 rootwait rw lsm.module_locking=0\0" \
 	\
 	"dev_extras=\0" \
 	"extra_bootargs=\0" \
@@ -272,14 +272,15 @@
 		"run ext2_boot\0" \
 	\
 	"mmc_setup=" \
-		"mmc dev ${devnum}; " \
-		"mmc rescan ${devnum}; " \
+		"mmc dev 1; " \
+		"mmc rescan 1; " \
 		"setenv devtype mmc; " \
-		"setenv devname mmcblk${devnum}p\0" \
+		"setenv devname mmcblk1p\0" \
 	"mmc_boot=" \
 		"run mmc_setup; " \
-		"run run_disk_boot_script;" \
-		"run ext2_boot\0" \
+		"mmc read 40007000 A000 1BDB;" \
+		"mmc read 42000000 BBDB 38;" \
+		"bootm 40007000 -  42000000\0" \
 	"mmc0_boot=setenv devnum 0; " \
 		"run mmc_boot\0" \
 	"mmc1_boot=setenv devnum 1; " \

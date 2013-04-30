@@ -48,7 +48,7 @@
  * - debug and earlyprintk: easier to debug; they could be removed later
  */
 #define CONFIG_DIRECT_BOOTARGS \
-	"console=tty debug earlyprintk"
+	"cros_legacy console=ttySAC3,115200 debug verbose earlyprintk root=/dev/mmcblk1p3 rootwait rw lsm.module_locking=0"
 
 /* Standard input, output and error device of U-Boot console. */
 #define CONFIG_STD_DEVICES_SETTINGS 	EXYNOS_DEVICE_SETTINGS
@@ -76,18 +76,12 @@
 	"bootdelay=5\0" \
 	"dev_extras=daisy\0" \
 	"loadaddr=0x40007000\0" \
-	"console=tty\0" \
-	"bootenv=u-boot.cfg\0" \
-	"loadbootenv=ext2load mmc 1:2 ${loadaddr} ${bootenv}\0" \
-	"importbootenv=echo Importing environment ...; " \
-		"env import -t $loadaddr $filesize\0" \
-	"manual_import=mmc dev 1; if mmc rescan; then " \
-			"echo SD/MMC found on device 1; " \
-			"if run loadbootenv; then " \
-				"echo Loaded environment from ${bootenv}; " \
-				"run importbootenv; " \
-			"fi; " \
-		"fi;\0"
+	"cros_legacy\0" \
+	"rootpart=3\0" \
+	"kernelpart=2\0" \
+	"devnum=1\0" \
+	"devname=mmcblk1p\0" \
+	"console=ttySAC3,115200 debug verbose earlyprintk root=/dev/mmcblk1p3 rootwait rw lsm.module_locking=0\0" \
 
 /* Replace default CONFIG_BOOTCOMMAND */
 #ifdef CONFIG_BOOTCOMMAND
@@ -95,17 +89,10 @@
 #endif
 #define CONFIG_BOOTCOMMAND \
 	"mmc dev 1; " \
-	"if mmc rescan; then " \
-		"echo SD/MMC found on device 1; " \
-		"if run loadbootenv; then " \
-			"echo Loaded environment from ${bootenv}; " \
-			"run importbootenv;" \
-		"fi; " \
-		"if test -n $bootscript; then " \
-			"echo Running bootscript...; " \
-			"run bootscript;" \
-		"fi; " \
-	"fi;" \
+	"mmc rescan; " \
+	"mmc read 40007000 A000 1BDB; " \
+	"mmc read 42000000 BBDB 38; " \
+	"bootm 40007000 - 42000000; " \
 
 #define CONFIG_PRE_CONSOLE_BUFFER
 #define CONFIG_PRE_CON_BUF_SZ 0x100000
