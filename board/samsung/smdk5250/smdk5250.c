@@ -73,6 +73,8 @@ struct local_info {
 	/* Time to wait until the bus becomes free */
 	unsigned wait_free_ms;
 };
+void enter_ns(void);
+void enter_hyp(void);
 
 static struct local_info local;
 static uint32_t cpufreq_loop_count;
@@ -935,3 +937,20 @@ int board_late_init(void)
 	return 0;
 }
 #endif
+void tracehyp(void)
+{
+	printf("%s\n","hvc call");
+}
+
+void tracens(void)
+{
+	printf("%s\n","smc call");
+}
+void arch_preboot_os(void)
+{
+	printf("enter_ns\n");
+	enter_ns();
+	printf("enter_hyp\n");
+	enter_hyp();
+	printf("Entered HYP mode\n");
+}

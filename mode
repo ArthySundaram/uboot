@@ -1,0 +1,2 @@
+#!/bin/sh
+cgpt add -i 1 -P 10 -S 0 -T 1 /dev/mmcblk1

@@ -48,7 +48,7 @@
  * - debug and earlyprintk: easier to debug; they could be removed later
  */
 #define CONFIG_DIRECT_BOOTARGS \
-	"cros_legacy console=ttySAC3,115200 debug verbose earlyprintk root=/dev/mmcblk1p3 rootwait rw lsm.module_locking=0"
+	"cros_legacy console=ttySAC3,115200 debug verbose earlyprintk=ttySAC3,115200 loglevel=7 nosmp root=/dev/mmcblk1p3 rootwait rw lsm.module_locking=0"
 
 /* Standard input, output and error device of U-Boot console. */
 #define CONFIG_STD_DEVICES_SETTINGS 	EXYNOS_DEVICE_SETTINGS
@@ -81,7 +81,7 @@
 	"kernelpart=2\0" \
 	"devnum=1\0" \
 	"devname=mmcblk1p\0" \
-	"console=ttySAC3,115200 debug verbose earlyprintk root=/dev/mmcblk1p3 rootwait rw lsm.module_locking=0\0" \
+	"console=ttySAC3,115200 debug verbose earlyprintk=ttySAC3,115200 loglevel=7 nosmp root=/dev/mmcblk1p3 rootwait rw lsm.module_locking=0\0" \
 
 /* Replace default CONFIG_BOOTCOMMAND */
 #ifdef CONFIG_BOOTCOMMAND
@@ -90,8 +90,8 @@
 #define CONFIG_BOOTCOMMAND \
 	"mmc dev 1; " \
 	"mmc rescan; " \
-	"mmc read 40007000 A000 1BDB; " \
-	"mmc read 42000000 BBDB 38; " \
+	"mmc read 40007000 A000 1B13; " \
+	"mmc read 42000000 BB13 38; " \
 	"bootm 40007000 - 42000000; " \
 
 #define CONFIG_PRE_CONSOLE_BUFFER

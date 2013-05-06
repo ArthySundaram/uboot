@@ -710,7 +710,6 @@ int ddr3_mem_ctrl_init(struct mem_timings *mem, unsigned long mem_iv_size,
 		       int mem_reset);
 
 void system_clock_init(void);
-
 void tzpc_init(void);
 /*
  * Configure ZQ I/O interface
