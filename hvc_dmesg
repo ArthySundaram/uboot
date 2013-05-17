@@ -1,0 +1,90 @@
+
+
+U-Boot 2011.12-g2b5fcb3-dirty (May 05 2013 - 19:45:41) for SMDK5250
+
+CPU:   S5PC520 @ 1700MHz
+I2C:   ready
+DRAM:  2 GiB Elpida DDR3 @ 800MHz
+MMC:   S5P MSHC0: 0, S5P MSHC1: 1
+Using default environment
+
+Model: Google Snow
+In:    mkbp-keyb
+Out:   lcd
+Err:   lcd
+Net:   No ethernet found.
+Hit any key to stop autoboot:  5  4  3  2  0 
+SMDK5250 # printenv
+baudrate=115200
+bootargs=console=ttySAC3,115200cros_legacy verbose debug earlyprintk=ttySAC3,115200 loglevel=7 nosmp root=/dev/mmcblk1p3 rootwait rw lsm.module_locking=0
+bootcmd=mmc dev 1; mmc rescan; mmc read 40007000 A000 1B14; mmc read 42000000 BB14 38; bootm 40007000 - 42000000; 
+bootdelay=5
+console=ttySAC3,115200 debug verbose earlyprintk=ttySAC3,115200 loglevel=7 nosmp root=/dev/mmcblk1p3 rootwait rw lsm.module_locking=0
+dev_extras=daisy
+devname=mmcblk1p
+devnum=1
+fdtaddr=bda45d54
+kernelpart=2
+loadaddr=0x40007000
+rootpart=3
+stderr=lcd
+stdin=mkbp-keyb
+stdout=lcd
+
+Environment size: 604/16380 bytes
+SMDK5250 # boot
+ERROR: v7_dcache_inval_range - stop address is not aligned - 0xbda45508
+mmc_init err 0, time 46147
+mmc1 is current device
+ERROR: v7_dcache_inval_range - stop address is not aligned - 0xbda45508
+mmc_init err 0, time 43625
+
+MMC read: dev # 1, block # 40960, count 6932 ... 6932 blocks read: OK
+
+MMC read: dev # 1, block # 47892, count 56 ... 56 blocks read: OK
+## Booting kernel from Legacy Image at 40007000 ...
+   Image Name:   Linux-3.8.0
+   Image Type:   ARM Linux Kernel Image (uncompressed)
+   Data Size:    3548864 Bytes = 3.4 MiB
+   Load Address: 40008000
+   Entry Point:  40008000
+   Verifying Checksum ... OK
+## Flattened Device Tree blob at 42000000
+   Booting using the fdt blob at 0x42000000
+   Loading Kernel Image ... OK
+OK
+enter_ns
+smc call
+enter_hyp
+hvc call
+Entered HYP mode
+   Loading Device Tree to 5fff5000, end 5ffff2af ... OK
+
+Starting kernel ...
+
+Timer summary in microseconds:
+       Mark    Elapsed  Stage
+          0          0  reset
+    100,000    100,000  spl_start
+ 13,762,436 13,662,436  board_init_f
+ 13,812,568     50,132  board_init_r
+ 13,813,858      1,290  board_init
+ 13,853,582     39,724  board_init_done
+ 13,872,723     19,141  id=64
+ 13,872,999        276  main_loop
+ 33,973,391 20,100,392  bootm_start
+ 33,973,391          0  id=1
+ 33,973,536        145  id=2
+ 33,973,538          2  id=3
+ 33,992,802     19,264  id=5
+ 33,992,802          0  id=4
+ 33,992,803          1  id=6
+ 33,999,553      6,750  id=7
+ 33,999,554          1  id=8
+ 34,004,704      5,150  id=15
+ 34,010,082      5,378  start_kernel
+
+Accumulated time:
+               171,022  lcd
+Stashed 19 records
+ 19 records

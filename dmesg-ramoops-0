@@ -1,0 +1,144 @@
+
+
+U-Boot 2011.12-gb6b0a49-dirty (May 17 2013 - 04:23:28) for SMDK5250
+
+CPU:   S5PC520 @ 1700MHz
+I2C:   ready
+DRAM:  2 GiB Elpida DDR3 @ 800MHz
+MMC:   S5P MSHC0: 0, S5P MSHC1: 1
+Using default environment
+
+Model: Google Snow
+In:    mkbp-keyb
+Out:   lcd
+Err:   lcd
+Net:   No ethernet found.
+Hit any key to stop autoboot:  5  4  3  0 
+SMDK5250 # set   printenv
+baudrate=115200
+bootargs=console=ttySAC3,115200cros_legacy verbose debug earlyprintk=ttySAC3,115200 loglevel=6  root=/dev/mmcblk1p3 rootwait rw lsm.module_locking=0
+bootcmd=mmc dev 1; mmc rescan; mmc read 40007000 A000 1BDB; mmc read 42000000 BBDB 38; bootm 40007000 - 42000000; 
+bootdelay=5
+console=ttySAC3,115200 debug verbose earlyprintk=ttySAC3,115200 loglevel=7 root=/dev/mmcblk1p3 rootwait rw lsm.module_locking=0
+dev_extras=daisy
+devname=mmcblk1p
+devnum=1
+fdtaddr=bda45d54
+kernelpart=2
+loadaddr=0x40007000
+rootpart=3
+stderr=lcd
+stdin=mkbp-keyb
+stdout=lcd
+
+Environment size: 593/16380 bytes
+SMDK5250 # mmc dev	 1   1
+mmc - MMC sub system
+
+Usage:
+mmc read addr blk# cnt
+mmc write addr blk# cnt
+mmc erase blk# cnt
+mmc rescan
+mmc part - lists available partition on current mmc device
+mmc dev [dev] [part] - show or set current mmc device [partition]
+mmc list - lists available devices
+SMDK5250 # mmc dev 1
+ERROR: v7_dcache_inval_range - stop address is not aligned - 0xbda45608
+mmc_init err 0, time 46157
+mmc1 is current device
+SMDK5250 # mmc recan   scan
+ERROR: v7_dcache_inval_range - stop address is not aligned - 0xbda45608
+mmc_init err 0, time 43497
+SMDK5250 # mmc read 40007000 A000 1BDB
+
+MMC read: dev # 1, block # 40960, count 7131 ... 7131 blocks read: OK
+SMDK5250 # iminfo
+
+## Checking Image at 40007000 ...
+   Legacy image found
+   Image Name:   Linux-3.8.0
+   Image Type:   ARM Linux Kernel Image (uncompressed)
+   Data Size:    3650920 Bytes = 3.5 MiB
+   Load Address: 40008000
+   Entry Point:  40008000
+   Verifying Checksum ... OK
+SMDK5250 # mmc read 42000000 BBDB 38
+
+MMC read: dev # 1, block # 48091, count 56 ... 56 blocks read: OK
+SMDK5250 # iminfo 42000000
+
+## Checking Image at 42000000 ...
+   FIT image found
+Bad FIT image format!
+SMDK5250 # fdt header
+magic:			0xd00dfeed
+totalsize:		0x51ef (20975)
+off_dt_struct:		0x78
+off_dt_strings:		0x3ad0
+off_mem_rsvmap:		0x28
+version:		17
+last_comp_version:	16
+boot_cpuid_phys:	0x0
+size_dt_strings:	0x71f
+size_dt_struct:		0x3a58
+number mem_rsv:		0x0
+
+SMDK5250 # boot
+mmc1 is current device
+ERROR: v7_dcache_inval_range - stop address is not aligned - 0xbda45508
+mmc_init err 0, time 46481
+
+MMC read: dev # 1, block # 40960, count 7131 ... 7131 blocks read: OK
+
+MMC read: dev # 1, block # 48091, count 56 ... 56 blocks read: OK
+## Booting kernel from Legacy Image at 40007000 ...
+   Image Name:   Linux-3.8.0
+   Image Type:   ARM Linux Kernel Image (uncompressed)
+   Data Size:    3650920 Bytes = 3.5 MiB
+   Load Address: 40008000
+   Entry Point:  40008000
+   Verifying Checksum ... OK
+## Flattened Device Tree blob at 42000000
+   Booting using the fdt blob at 0x42000000
+   Loading Kernel Image ... OK
+OK
+   Loading Device Tree to 5fff5000, end 5ffff2af ... OK
+Check whether we are in hyp mode already
+Check whether virt extn is supported
+Check if we support
+Check if we support 4GB
+INVOKE the bomb
+INVOKEdd the bomb
+checkeddd!! if bomb exploded
+entered HYP mode now
+
+Starting kernel ...
+
+Timer summary in microseconds:
+       Mark    Elapsed  Stage
+          0          0  reset
+    100,000    100,000  spl_start
+ 11,815,924 11,715,924  board_init_f
+ 11,866,012     50,088  board_init_r
+ 11,867,302      1,290  board_init
+ 11,906,823     39,521  board_init_done
+ 11,925,926     19,103  id=64
+ 11,926,191        265  main_loop
+229,360,621217,434,430  bootm_start
+229,360,622          1  id=1
+229,361,902      1,280  id=2
+229,361,905          3  id=3
+229,388,479     26,574  id=4
+229,388,480          1  id=5
+229,388,481          1  id=6
+229,399,545     11,064  id=7
+229,399,547          2  id=8
+229,399,549          2  id=15
+229,919,548    519,999  start_kernel
+
+Accumulated time:
+               177,995  lcd
+bootstage: Failed to add to device tree
+Stashed 19 records
+Gà1‡G¥∏‰Gp,‡Gî,‡Gà1‡G∏∏‰Gà1‡Gº∏‰Gà1‡G¿∏‰Gà1‡Gƒ∏‰Gà1‡G»∏‰Gà1‡GÃ∏‰Gà1‡G–∏‰Gà1‡G‘∏‰Gà1‡Gÿ∏‰Gà1‡G‹∏‰Gà1‡G‡∏‰G‹1‡GÏ1‡G

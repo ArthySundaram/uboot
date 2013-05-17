@@ -1,0 +1,1914 @@
+    6.781403] mmc0:     4096 bytes transferred: 0
+[    6.781474] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.781580] <mmc0: starting CMD23 arg 00000030 flags 00000015>
+[    6.781640] mmc0: starting CMD18 arg 007d31c0 flags 000000b5
+[    6.781702] mmc0:     blksz 512 blocks 48 flags 00000200 tsac 100 ms nsac 0
+[    6.781762] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.782575] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.782642] mmc0:     24576 bytes transferred: 0
+[    6.782698] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.784142] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.784205] mmc0: starting CMD18 arg 008b8390 flags 000000b5
+[    6.784268] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.784327] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.784797] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.784863] mmc0:     4096 bytes transferred: 0
+[    6.784918] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.785023] <mmc0: starting CMD23 arg 00000010 flags 00000015>
+[    6.785091] mmc0: starting CMD18 arg 004549b0 flags 000000b5
+[    6.785151] mmc0:     blksz 512 blocks 16 flags 00000200 tsac 100 ms nsac 0
+[    6.785222] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.785703] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.785768] mmc0:     8192 bytes transferred: 0
+[    6.785826] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.785954] <mmc0: starting CMD23 arg 00000100 flags 00000015>
+[    6.786013] mmc0: starting CMD18 arg 008af400 flags 000000b5
+[    6.786072] mmc0:     blksz 512 blocks 256 flags 00000200 tsac 100 ms nsac 0
+[    6.786132] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.788145] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.788212] mmc0:     131072 bytes transferred: 0
+[    6.788267] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.788415] <mmc0: starting CMD23 arg 000000d0 flags 00000015>
+[    6.788474] mmc0: starting CMD18 arg 00354000 flags 000000b5
+[    6.788537] mmc0:     blksz 512 blocks 208 flags 00000200 tsac 100 ms nsac 0
+[    6.788597] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.790317] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.790386] mmc0:     106496 bytes transferred: 0
+[    6.790444] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.790609] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.790670] mmc0: starting CMD18 arg 007df9f8 flags 000000b5
+[    6.790731] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.790791] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.791255] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.791316] mmc0:     4096 bytes transferred: 0
+[    6.791372] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.791593] <mmc0: starting CMD23 arg 000000d8 flags 00000015>
+[    6.791654] mmc0: starting CMD18 arg 008af500 flags 000000b5
+[    6.791714] mmc0:     blksz 512 blocks 216 flags 00000200 tsac 100 ms nsac 0
+[    6.791776] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.793411] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.793476] mmc0:     110592 bytes transferred: 0
+[    6.793531] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.793659] <mmc0: starting CMD23 arg 00000038 flags 00000015>
+[    6.793718] mmc0: starting CMD18 arg 003540d0 flags 000000b5
+[    6.793778] mmc0:     blksz 512 blocks 56 flags 00000200 tsac 100 ms nsac 0
+[    6.793837] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.794709] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.794775] mmc0:     28672 bytes transferred: 0
+[    6.794830] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.799437] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.799505] mmc0: starting CMD25 arg 007d8388 flags 000000b5
+[    6.799570] mmc0:     blksz 512 blocks 8 flags 00000100 tsac 1600 ms nsac 0
+[    6.799631] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.799998] mmc0: req done (CMD25): 0: 00000900 00000000 00000000 00000000
+[    6.800062] mmc0:     4096 bytes transferred: 0
+[    6.800117] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.800277] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.800377] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.800477] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.800573] mmc0: req done (CMD13): 0: 00000900 00000000 00000000 00000000
+[    6.800673] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.800730] mmc0: starting CMD18 arg 00891ac8 flags 000000b5
+[    6.800790] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.800849] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.801400] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.801465] mmc0:     4096 bytes transferred: 0
+[    6.801519] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.801636] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.801695] mmc0: starting CMD18 arg 008adc68 flags 000000b5
+[    6.801756] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.801816] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.802202] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.802276] mmc0:     4096 bytes transferred: 0
+[    6.802330] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.802458] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.802518] mmc0: starting CMD18 arg 008b49e0 flags 000000b5
+[    6.802578] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.802636] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.803015] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.803080] mmc0:     4096 bytes transferred: 0
+[    6.803136] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.803840] <mmc0: starting CMD23 arg 00000028 flags 00000015>
+[    6.803904] mmc0: starting CMD18 arg 00356900 flags 000000b5
+[    6.803966] mmc0:     blksz 512 blocks 40 flags 00000200 tsac 100 ms nsac 0
+[    6.804025] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.804793] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.804860] mmc0:     20480 bytes transferred: 0
+[    6.804914] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.805039] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.805097] mmc0: starting CMD18 arg 008b4e28 flags 000000b5
+[    6.805157] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.805218] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.805625] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.805689] mmc0:     4096 bytes transferred: 0
+[    6.805745] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.805870] <mmc0: starting CMD23 arg 00000010 flags 00000015>
+[    6.805930] mmc0: starting CMD18 arg 008b82d0 flags 000000b5
+[    6.805995] mmc0:     blksz 512 blocks 16 flags 00000200 tsac 100 ms nsac 0
+[    6.806044] init: Failed to create pty - disabling logging for job
+[    6.806118] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.806658] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.806707] init: Temporary process spawn error: No space left on device
+[    6.806783] mmc0:     8192 bytes transferred: 0
+[    6.806838] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.806956] <mmc0: starting CMD23 arg 000000f8 flags 00000015>
+[    6.807018] mmc0: starting CMD18 arg 00757308 flags 000000b5
+[    6.807081] mmc0:     blksz 512 blocks 248 flags 00000200 tsac 100 ms nsac 0
+[    6.807143] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.810825] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.810892] mmc0:     126976 bytes transferred: 0
+[    6.810948] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.811076] <mmc0: starting CMD23 arg 000000e0 flags 00000015>
+[    6.811136] mmc0: starting CMD18 arg 00356928 flags 000000b5
+[    6.811301] mmc0:     blksz 512 blocks 224 flags 00000200 tsac 100 ms nsac 0
+[    6.811365] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.813210] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.813277] mmc0:     114688 bytes transferred: 0
+[    6.813333] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.814626] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.814704] mmc0: starting CMD18 arg 008e3110 flags 000000b5
+[    6.814785] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.814862] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.815328] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.815399] mmc0:     4096 bytes transferred: 0
+[    6.815454] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.815623] <mmc0: starting CMD23 arg 00000068 flags 00000015>
+[    6.815692] mmc0: starting CMD18 arg 00357800 flags 000000b5
+[    6.815767] mmc0:     blksz 512 blocks 104 flags 00000200 tsac 100 ms nsac 0
+[    6.815842] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.816829] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.816899] mmc0:     53248 bytes transferred: 0
+[    6.816956] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.819263] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.819328] mmc0: starting CMD18 arg 005502e8 flags 000000b5
+[    6.819391] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.819452] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.819938] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.820022] mmc0:     4096 bytes transferred: 0
+[    6.820089] mmc0:     (CMD12): 0: 00000000"00000000 00000000 00000000
+[    6.820221] <mmc0: starting CMD23 arg 000000a0 flags 00000015>
+[    6.820282] mmc0: starting CMD18 arg 00357868 flags 000000b5
+[    6.820345] mmc0:     blksz 512 blocks 160 flags 00000200 tsac 100 ms nsac 0
+[    6.820404] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.821705] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.821779] mmc0:     81920 bytes transferred: 0
+[    6.821835] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.821967] <mmc0: starting CMD23 arg 00000100 flags 00000015>
+[    6.822026] mmc0: starting CMD18 arg 00756c00 flags 000000b5
+[    6.822087] mmc0:     blksz 512 blocks 256 flags 00000200 tsac 100 ms nsac 0
+[    6.822147] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.826064] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00800000
+[    6.826145] mmc0:     131072 bytes transferred: 0
+[    6.826277] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.826494] <mmc0: starting CMD23 arg 000000c0 flags 00000015>
+[    6.826569] mmc0: starting CMD18 arg 00357a00 flags 000000b5
+[    6.826638] mmc0:     blksz 512 blocks 192 flags 00000200 tsac 100 ms nsac 0
+[    6.826708] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.828367] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.828433] mmc0:     98304 bytes transferred: 0
+[    6.828489] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.828741] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.828749] mmc0: starting CMD18 arg 003646c0 flags 000000b5
+[    6.828757] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.828765] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.829037] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.829046] mmc0:     4096 bytes transferred: 0
+[    6.829055] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.829087] <mmc0: starting CMD23 arg 00000048 flags 00000015>
+[    6.829095] mmc0: starting CMD18 arg 00357ac0 flags 000000b5
+[    6.829103] mmc0:     blksz 512 blocks 72 flags 00000200 tsac 100 ms nsac 0
+[    6.829112] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.829772] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.829781] mmc0:     36864 bytes transferred: 0
+[    6.829788] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.829823] <mmc0: starting CMD23 arg 00000100 flags 00000015>
+[    6.829830] mmc0: starting CMD18 arg 003e3000 flags 000000b5
+[    6.829839] mmc0:     blksz 512 blocks 256 flags 00000200 tsac 100 ms nsac 0
+[    6.829847] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.831586] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.831595] mmc0:     131072 bytes transferred: 0
+[    6.831603] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.831639] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.831648] mmc0: starting CMD18 arg 00491090 flags 000000b5
+[    6.831656] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.831664] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.831672] init: Failed to create pty - disabling logging for job
+[    6.831777] init: Temporary process spawn error: No space left on device
+[    6.831956] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.831965] mmc0:     4096 bytes transferred: 0
+[    6.831973] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.832075] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.832084] mmc0: starting CMD18 arg 008e96d8 flags 000000b5
+[    6.832092] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.832100] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.832387] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.832396] mmc0:     4096 bytes transferred: 0
+[    6.832402] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.832423] <mmc0: starting CMD23 arg 000000f0 flags 00000015>
+[    6.832431] mmc0: starting CMD18 arg 003e3100 flags 000000b5
+[    6.832439] mmc0:     blksz 512 blocks 240 flags 00000200 tsac 100 ms nsac 0
+[    6.832446] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.834101] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.834110] mmc0:     122880 bytes transferred: 0
+[    6.834118] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.834146] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.834154] mmc0: stirting CMD18 arg 00514488 flags 000000b5
+[    6.834162] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.834169] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.834456] mmc0: req done (CMD18): 0: 00000900 00000000 00°00000 00000000
+[    6.834465] mmc0:     4096 bytes transferred: 0
+[    6.834472] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.834490] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.834497] mmc0: starting CMD18 arg 00392a28 flags 000000b5
+[    6.834505] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.834513] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.834811] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.834821] mmc0:     4096 bytes transferred: 0
+[    6.834830] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.834860] <mmc0: starting CMD23 arg 000000c0 flags 00000015>
+[    6.834868] mmc0: starting CMD18 arg 00397350 flags 000000b5
+[    6.834877] mmc0:     blksz 512 blocks 192 flags 00000200 tsac 100 ms nsac 0
+[    6.834887] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.836265] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.836274] mmc0:     98304 bytes transferred: 0
+[    6.836282] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.836300] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.836308] mmc0: starting CMD18 arg 004546f0 flags 000000b5
+[    6.836316] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.836323] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.836593] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.836602] mmc0:     4096 bytes transferred: 0
+[    6.836609] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.836628] <mmc0: starting CMD23 arg 00000100 flags 00000015>
+[    6.836635] mmc0: starting CMD18 arg 00354108 flags 000000b5
+[    6.836643] mmc0:     blksz 512 blocks 256 flags 00000200 tsac 100 ms nsac 0
+[    6.836650] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.838400] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.838409] mmc0:     131072 bytes transferred: 0
+[    6.838416] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.838735] <mmc0: starting CMD23 arg 00000010 flags 00000015>
+[    6.838744] mmc0: starting CMD18 arg 004f6900 flags 000000b5
+[    6.838754] mmc0:     blksz 512 blocks 16 flags 00000200 tsac 100 ms nsac 0
+[    6.838763] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.839123] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.839133] mmc0:     8192 bytes transferred: 0
+[    6.839140] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.839158] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.839166] mmc0: starting CMD18 arg 0048fd88 flags 000000b5
+[    6.839174] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.839181] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.839485] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.839496] mmc0:     4096 bytes transferred: 0
+[    6.839503] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.839564] <mmc0: starting CMD23 arg 00000100 flags 00000015>
+[    6.839573] mmc0: starting CMD18 arg 003ed800 flags 000000b5
+[    6.839581] mmc0:     blksz 512 blocks 256 flags 00000200 tsac 100 ms nsac 0
+[    6.839589] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.841334] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.841345] mmc0:     131072 bytes transferred: 0
+[    6.841353] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.841380] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.841389] mmc0: starting CMD18 arg 004e6540 flags 000000b5
+[    6.841398] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.841407] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.841679] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.841689] mmc0:     4096 bytes transferred: 0
+[    6.841697] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.841759] <mmc0: starting CMD23 arg 00000068 flags 00000015>
+[    6.841767] mmc0: starting CMD18 arg 003ed900 flags 000000b5
+[    6.841775] mmc0:     blksz 512 blocks 104 flags 00000200 tsac 100 ms nsac 0
+[    6.841783] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.842661] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.842671] mmc0:     53248 bytes transferred: 0
+[    6.842679] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.842700] <mmc0: starting CMD23 arg 00000100 flags 00000015>
+[    6.842709] mmc0: starting CMD18 arg 00757708 flags 000000b5
+[    6.842718] mmc0:     blksz 512 blocks 256 flags 00000200 tsac 100 ms nsac 0
+[    6.842726] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.843645] init: Failed to create pty - disabling logging for job
+[    6.843720] init: Temporary process spawn error: No space left on device
+[    6.846446] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.846456] mmc0:     131072 bytes transferred: 0
+[    6.846464] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.846570] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.846578] mmc0: starting CMD25 arg 007f10a8 flags 000000b5
+[    6.846586] mmc0:     blksz 512 blocks 8 flags 00000100 tsac 1600 ms nsac 0
+[    6.846594] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.847387] mmc0: req done (CMD25): 0: 00000900 00000000 00000000 00000000
+[    6.847398] mmc0:     4096 bytes transferred: 0
+[    6.847405] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.847425] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.847446] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.847460] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.847479] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.847495] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.847517] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.847533] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.847556] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.847573] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.847591] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.847605] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.847626] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.847641] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.847661] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.847679] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.847698] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.847711] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.847729] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.847744] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.847762] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.847777] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.847794] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.847809] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.847827] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.847842] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.847860] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.847874] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.847890] mmc0: req done (CMD13): 0: 00000900 00000000 00000000 00000000
+[    6.847904] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.847911] mmc0: starting CMD18 arg 00891b28 flags 000000b5
+[    6.847919] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.847926] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.848247] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.848256] mmc0:     4096 bytes transferred: 0
+[    6.848263] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.848313] <mmc0: starting CMD23 arg 00000010 flags 00000015>
+[    6.848322] mmc0: starting CMD18 arg 007f46c0 flags 000000b5
+[    6.848331] mmc0:     blksz 512 blocks 16 flags 00000200 tsac 100 ms nsac 0
+[    6.848339] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.848673] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.848682] mmc0:     8192 bytes transferred: 0
+[    6.848689] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.848748] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.848757] mmc0: starting CMD18 arg 008d8b90 flags 000000b5
+[    6.848764] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.848772] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.849061] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.849070] mmc0:     4096 bytes transferred: 0
+[    6.849078] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.849121] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.849128] mmc0: starting CMD18 arg 008eeb70 flags 000000b5
+[    6.849136] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.849143] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.849415] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.849423] mmc0:     4096 bytes transferred: 0
+[    6.849430] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.849472] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.849480] mmc0: starting CMD18 arg 00b98410 flags 000000b5
+[    6.849488] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.849495] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.849785] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.849794] mmc0:     4096 bytes transferred: 0
+[    6.849802] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.849850] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.849858] mmc0: starting CMD18 arg 00b98f38 flags 000000b5
+[    6.849866] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.849875] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.850173] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.850183] mmc0:     4096 bytes transferred: 0
+[    6.850191] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.850237] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.850244] mmc0: starting CMD18 arg 00392a18 flags 000000b5
+[    6.850252] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.850261] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.850711] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.850720] mmc0:     4096 bytes transferred: 0
+[    6.850728] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.850773] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.850782] mmc0: starting CMD18 arg 003a8308 flags 000000b5
+[    6.850791] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.850801] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.851093] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.851102] mmc0:     4096 bytes transferred: 0
+[    6.851109] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.851185] <mmc0: starting CMD23 arg 00000010 flags 00000015>
+[    6.851195] mmc0: starting CMD18 arg 007d3b88 flags 000000b5
+[    6.851204] mmc0:     blksz 512 blocks 16 flags 00000200 tsac 100 ms nsac 0
+[    6.851213] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.851738] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.851749] mmc0:     8192 bytes transferred: 0
+[    6.851758] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.851817] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.851826] mmc0: starting CMD18 arg 007d3b18 flags 000000b5
+[    6.851835] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.851843] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.852142] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.852151] mmc0:     4096 bytes transferred: 0
+[    6.852159] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.852212] <mmc0: starting CMD23 arg 00000088 flags 00000015>
+[    6.852220] mmc0: starting CMD18 arg 003f2700 flags 000000b5
+[    6.852228] mmc0:     blksz 512 blocks 136 flags 00000200 tsac 100 ms nsac 0
+[    6.852236] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.853445] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.853455] mmc0:     69632 bytes transferred: 0
+[    6.853462] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.853587] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.853597] mmc0: starting CMD25 arg 007f10d8 flags 000000b5
+[    6.853606] mmc0:     blksz 512 blocks 8 flags 00000100 tsac 1600 ms nsac 0
+[    6.853615] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.853786] mmc0: req done (CMD25): 0: 00000900 00000000 00000000 00000000
+[    6.853794] mmc0:     4096 bytes transferred: 0
+[    6.853801] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.853820] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.853843] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.853859] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.853877] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.853892] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.853910] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.853929] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.853957] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.853975] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.853995] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.854011] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.854030] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.854045] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.854066] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.854080] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.854099] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.854115] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.854134] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.854148] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.854166] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.854181] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.854199] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.854214] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.854233] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.854248] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.854266] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.854281] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.854299] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.854314] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.854331] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.854347] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.854364] mmc0: req done (CMD13): 0: 00000900 00000000 00000000 00000000
+[    6.854380] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.854388] mmc0: starting CMD18 arg 00500de0 flags 000000b5
+[    6.854396] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.854403] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.854705] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.854712] mmc0:     4096 bytes transferred: 0
+[    6.854720] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.854767] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.854775] mmc0: starting CMD18 arg 0053aed0 flags 000000b5
+[    6.854783] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.854792] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.855066] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.855074] mmc0:     4096 bytes transferred: 0
+[    6.855081] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.855137] <mmc0: starting CMD23 arg 00000100 flags 00000015>
+[    6.855146] mmc0: starting CMD18 arg 00756408 flags 000000b5
+[    6.855153] mmc0:     blksz 512 blocks 256 flags 00000200 tsac 100 ms nsac 0
+[    6.855161] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.858550] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.858561] mmc0:     131072 bytes transferred: 0
+[    6.858569] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.859005] <mmc0: starting CMD23 arg 00000100 flags 00000015>
+[    6.859014] mmc0: starting CMD18 arg 00754100 flags 000000b5
+[    6.859022] mmc0:     blksz 512 blocks 256 flags 00000200 tsac 100 ms nsac 0
+[    6.859031] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.861733] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.861741] mmc0:     131072 bytes transferred: 0
+[    6.861748] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.861834] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.861842] mmc0: starting CMD25 arg 007f11d0 flags 000000b5
+[    6.861849] mmc0:     blksz 512 blocks 8 flags 00000100 tsac 1600 ms nsac 0
+[    6.861857] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.862031] mmc0: req done (CMD25): 0: 00000900 00000000 00000000 00000000
+[    6.862040] mmc0:     4096 bytes transferred: 0
+[    6.862047] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.862688] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.862718] mmc0: req done (CMD13): 0: 00000900 00000000 00000000 00000000
+[    6.862736] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.862745] mmc0: starting CMD18 arg 008e1a28 flags 000000b5
+[    6.862754] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.862764] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.863083] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.863093] mmc0:     4096 bytes transferred: 0
+[    6.863101] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.863157] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.863166] mmc0: starting CMD18 arg 004549a8 flags 000000b5
+[    6.863175] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.863183] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.863475] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.863484] mmc0:     4096 bytes transferred: 0
+[    6.863491] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.863508] <mmc0: starting CMD23 arg 000000a0 flags 00000015>
+[    6.863515] mmc0: starting CMD18 arg 00357600 flags 000000b5
+[    6.863523] mmc0:     blksz 512 blocks 160 flags 00000200 tsac 100 ms nsac 0
+[    6.863530] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.864885] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.864895] mmc0:     81920 bytes transferred: 0
+[    6.864902] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.864924] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.864931] mmc0: starting CMD18 arg 004e5ce0 flags 000000b5
+[    6.864939] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.864946] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.865215] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.865224] mmc0:     4096 bytes transferred: 0
+[    6.865231] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.865249] <mmc0: starting CMD23 arg 00000068 flags 00000015>
+[    6.865257] mmc0: starting CMD18 arg 003576a0 flags 000000b5
+[    6.865264] mmc0:     blksz 512 blocks 104 flags 00000200 tsac 100 ms nsac 0
+[    6.865272] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.866195] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.866204] mmc0:     53248 bytes transferred: 0
+[    6.866211] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.866230] <mmc0: starting CMD23 arg 00000100 flags 00000015>
+[    6.866237] mmc0: starting CMD18 arg 00754f00 flags 000000b5
+[    6.866245] mmc0:     blksz 512 blocks 256 flags 00000200 tsac 100 ms nsac 0
+[    6.866252] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.868959] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.868967] mmc0:     131072 bytes transferred: 0
+[    6.868974] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.868991] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.868999] mmc0: starting CMD18 arg 00362cc8 flags 000000b5
+[    6.869006] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.869014] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.869435] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.869444] mmc0:     4096 bytes transferred: 0
+[    6.869451] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.871224] <mmc0: starting CMD23 arg 00000038 flags 00000015>
+[    6.871235] mmc0: starting CMD18 arg 00529f78 flags 000000b5
+[    6.871244] mmc0:     blksz 512 blocks 56 flags 00000200 tsac 100 ms nsac 0
+[    6.871252] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.871898] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.871907] mmc0:     28672 bytes transferred: 0
+[    6.871914] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.871932] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.871939] mmc0: starting CMD18 arg 008d5ba8 flags 000000b5
+[    6.871947] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.871955] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.872248] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.872256] mmc0:     4096 bytes transferred: 0
+[    6.872263] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.872281] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.872289] mmc0: starting CMD18 arg 00445e78 flags 000000b5
+[    6.872296] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.872303] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.872581] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.872590] mmc0:     4096 bytes transferred: 0
+[    6.872597] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.872614] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.872621] mmc0: starting CMD18 arg 004e6538 flags 000000b5
+[    6.872628] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.872636] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.872933] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.872942] mmc0:     4096 bytes transferred: 0
+[    6.872949] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.872968] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.872976] mmc0: starting CMD18 arg 008cc3e8 flags 000000b5
+[    6.872984] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.872991] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.873278] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.873286] mmc0:     4096 bytes transferred: 0
+[    6.873293] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.873310] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.873318] mmc0: starting CMD18 arg 008e32e0 flags 000000b5
+[    6.873325] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.873332] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.873608] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.873616] mmc0:     4096 bytes transferred: 0
+[    6.873623] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.873640] <mmc0: starting CMD23 arg 00000068 flags 00000015>
+[    6.873647] mmc0: starting CMD18 arg 00355100 flags 000000b5
+[    6.873655] mmc0:     blksz 512 blocks 104 flags 00000200 tsac 100 ms nsac 0
+[    6.873662] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.874528] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.874537] mmc0:     53248 bytes transferred: 0
+[    6.874544] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.874644] <mmc0: starting CMD23 arg 00000030 flags 00000015>
+[    6.874652] mmc0: starting CMD18 arg 00358b08 flags 000000b5
+[    6.874660] mmc0:     blksz 512 blocks 48 flags 00000200 tsac 100 ms nsac 0
+[    6.874668] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.875453] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.875461] mmc0:     24576 bytes transferred: 0
+[    6.875468] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.875597] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.875605] mmc0: starting CMD18 arg 0036cba0 flags 000000b5
+[    6.875613] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.875620] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.875884] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.875892] mmc0:     4096 bytes transferred: 0
+[    6.875898] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.876069] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.876078] mmc0: starting CMD18 arg 0036c738 flags 000000b5
+[    6.876085] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.876093] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.876350] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.876358] mmc0:     4096 bytes transferred: 0
+[    6.876365] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.876507] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.876515] mmc0: starting CMD18 arg 00364880 flags 000000b5
+[    6.876523] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.876531] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.876796] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.876804] mmc0:     4096 bytes transferred: 0
+[    6.876810] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.876946] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.876954] mmc0: starting CMD18 arg 00367838 flags 000000b5
+[    6.876962] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.876970] mmc0:     CMD92 arg 00000000 flags 0000049d
+[    6.877233] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.877241] mmc0:     4096 bytes transferred: 0
+[    6.877248] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.877365] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.877373] mmc0: starting CMD18 arg 00358300 flags 000000b5
+[    6.877381] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.877388] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.877682] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.877690] mmc0:     4096 bytes transferred: 0
+[    6.877697] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.877740] <mmc0: starting CMD23 arg 000000c8 flags 00000015>
+[    6.877748] mmc0: starting CMD18 arg 00358308 flags 000000b5
+[    6.877756] mmc0:     blksz 512 blocks 200 flags 00000200 tsac 100 ms nsac 0
+[    6.877763] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.880092] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.880100] mmc0:     102400 bytes transferred: 0
+[    6.880107] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.880342] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.880351] mmc0: starting CMD18 arg 00352ab0 flags 000000b5
+[    6.880359] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.880367] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.880641] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.880648] mmc0:     4096 bytes transferred: 0
+[    6.880655] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.881053] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.881062] mmc0: starting CMD18 arg 00367830 flags 000000b5
+[    6.881069] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.881077] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.881342] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.881350] mmc0:     4096 bytes transferred: 0
+[    6.881357] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.882038] <mmc0: starting CMD23 arg 000000a0 flags 00000015>
+[    6.882049] mmc0: starting CMD18 arg 00355168 flags 000000b5
+[    6.882059] mmc0:     blksz 512 blocks 160 flags 00000200 tsac 100 ms nsac 0
+[    6.882069] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.883247] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.883257] mmc0:     81920 bytes transferred: 0
+[    6.883264] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.883775] <mmc0: starting CMD23 arg 00000100 flags 00000015>
+[    6.883784] mmc0: starting CMD18 arg 00353408 flags 000000b5
+[    6.883792] mmc0:     blksz 512 blocks 256 flags 00000200 tsac 100 ms nsac 0
+[    6.883799] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.888277] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.888286] mmc0:     131072 bytes transferred: 0
+[    6.888293] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.888476] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.888484] mmc0: starting CMD18 arg 00352a08 flags 000000b5
+[    6.888492] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.888499] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.888773] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.888782] mmc0:     4096 bytes transferred: 0
+[    6.888789] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.889218] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.889227] mmc0: starting CMD18 arg 00352ab8 flags 000000b5
+[    6.889235] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.889242] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.889535] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.889543] mmc0:     4096 bytes transferred: 0
+[    6.889550] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.890675] <mmc0: starting CMD23 arg 00000100 flags 00000015>
+[    6.890686] mmc0: starting CMD18 arg 00352e08 flags 000000b5
+[    6.890696] mmc0:     blksz 512 blocks 256 flags 00000200 tsac 100 ms nsac 0
+[    6.890706] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.894814] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.894825] mmc0:     131072 bytes transferred: 0
+[    6.894832] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.894855] <mmc0: starting CMD23 arg 00000058 flags 00000015>
+[    6.894864] mmc0: starting CMD18 arg 00357c00 flags 000000b5
+[    6.894872] mmc0:     blksz 512 blocks 88 flags 00000200 tsac 100 ms nsac 0
+[    6.894883] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.895656] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.895666] mmc0:     45056 bytes transferred: 0
+[    6.895673] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.895692] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.895700] mmc0: starting CMD18 arg 00392a58 flags 000000b5
+[    6.895707] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.895715] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.895980] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.895989] mmc0:     4096 bytes transferred: 0
+[    6.895996] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.896014] <mmc0: starting CMD23 arg 000000b0 flags 00000015>
+[    6.896021] mmc0: starting CMD18 arg 00357c58 flags 000000b5
+[    6.896029] mmc0:     blksz 512 blocks 176 flags 00000200 tsac 100 ms nsac 0
+[    6.896037] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.897306] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.897316] mmc0:     90112 bytes transferred: 0
+[    6.897323] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.897343] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.897350] mmc0: starting CMD18 arg 00362f68 flags 000000b5
+[    6.897358] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.897366] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.897638] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.897648] mmc0:     4096 bytes transferred: 0
+[    6.897655] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.897742] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.897750] mmc0: starting CMD18 arg 008ebd10 flags 000000b5
+[    6.897758] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.897766] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.898057] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.898065] mmc0:     4096 bytes transferred: 0
+[    6.898072] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.898091] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.898099] mmc0: starting CMD18 arg 00392a60 flags 000000b5
+[    6.898106] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.898114] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.898391] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.898400] mmc0:     4096 bytes transferred: 0
+[    6.898407] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.898425] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.898432] mmc0: starting CMD18 arg 00392a08 flags 000000b5
+[    6.898439] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.898447] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.898732] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.898741] mmc0:     4096 bytes transferred: 0
+[    6.898748] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.898765] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.898772] mmc0: starting CMD18 arg 0036b118 flags 000000b5
+[    6.898780] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.898787] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.899081] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.899090] mmc0:     4096 bytes transferred: 0
+[    6.899097] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.899150] <mmc0: starting CMD23 arg 00000010 flags 00000015>
+[    6.899158] mmc0: starting CMD18 arg 003cfaa0 flags 000000b5
+[    6.899166] mmc0:     blksz 512 blocks 16 flags 00000200 tsac 100 ms nsac 0
+[    6.899174] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.899531] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.899540] mmc0:     8192 bytes transferred: 0
+[    6.899548] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.899606] <mmc0: starting CMD23 arg 00000030 flags 00000015>
+[    6.899614] mmc0: starting CMD18 arg 00479520 flags 000000b5
+[    6.899621] mmc0:     blksz 512 blocks 48 flags 00000200 tsac 100 ms nsac 0
+[    6.899629] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.900172] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.900182] mmc0:     24576 bytes transferred: 0
+[    6.900189] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.900271] <mmc0: starting CMD23 arg 00000100 flags 00000015>
+[    6.900279] mmc0: starting CMD18 arg 00353f00 flags 000000b5
+[    6.900287] mmc0:     blksz 512 blocks 256 flags 00000200 tsac 100 ms nsac 0
+[    6.900294] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.904681] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.904694] mmc0:     131072 bytes transferred: 0
+[    6.904703] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.904958] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.904969] mmc0: starting CMD25 arg 007f4e40 flags 000000b5
+[    6.904979] mmc0:     blksz 512 blocks 8 flags 00000100 tsac 1600 ms nsac 0
+[    6.904988] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.905164] mmc0: req done (CMD25): 0: 00000900 00000000 00000000 00000000
+[    6.905174] mmc0:     4096 bytes transferred: 0
+[    6.905181] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.905199] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.905217] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.905232] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.905248] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.905263] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.905279] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.905294] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.905312] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.905328] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.905346] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.905361] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.905378] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.905393] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.905410] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.905425] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.905444] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.905462] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.905479] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.905570] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.905590] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.905605] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.905623] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.905638] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.905655] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.905670] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.905687] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.905705] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.905722] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.905738] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.905755] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.905769] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.905790] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.905857] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.905879] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.905895] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.905911] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.905926] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.905945] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.905960] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.905981] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    6.905998] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    6.906016] mmc0: req done (CMD13): 0: 00000900 00000000 00000000 00000000
+[    6.906071] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.906080] mmc0: starting CMD18 arg 00364ab8 flags 000000b5
+[    6.906088] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.906096] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.906389] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.906399] mmc0:     4096 bytes transferred: 0
+[    6.906407] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.906561] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.906569] mmc0: starting CMD18 arg 00364ac0 flags 000000b5
+[    6.906578] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.906586] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.906858] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.906867] mmc0:     4096 bytes transferred: 0
+[    6.906874] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.907321] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.907330] mmc0: starting CMD18 arg 00491098 flags 000000b5
+[    6.907340] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.907348] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.907638] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.907647] mmc0:     4096 bytes transferred: 0
+[    6.907655] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.907714] <mmc0: starting CMD23 arg 00000038 flags 00000015>
+[    6.907723] mmc0: starting CMD18 arg 00356e00 flags 000000b5
+[    6.907731] mmc0:     blksz 512 blocks 56 flags 00000200 tsac 100 ms nsac 0
+[    6.907739] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.908315] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.908324] mmc0:     28672 bytes transferred: 0
+[    6.908331] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.908873] <mmc0: starting CMD23 arg 000000d0 flags 00000015>
+[    6.908884] mmc0: starting CMD18 arg 00356e38 flags 000000b5
+[    6.908894] mmc0:     blksz 512 blocks 208 flags 00000200 tsac 100 ms nsac 0
+[    6.908902] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.911059] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.911070] mmc0:     106496 bytes transferred: 0
+[    6.911079] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.911762] <mmc0: starting CMD23 arg 00000100 flags 00000015>
+[    6.911771] mmc0: starting CMD18 arg 00356a08 flags 000000b5
+[    6.911780] mmc0:     blksz 512 blocks 256 flags 00000200 tsac 100 ms nsac 0
+[    6.911787] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.913538] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.913549] mmc0:     131072 bytes transferred: 0
+[    6.913557] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.913805] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.913815] mmc0: starting CMD18 arg 008d8b30 flags 000000b5
+[    6.913823] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.913831] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.914128] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.914139] mmc0:     4096 bytes transferred: 0
+[    6.914148] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.914396] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.914406] mmc0: starting CMD18 arg 00365bf0 flags 000000b5
+[    6.914416] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.914425] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.914702] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.914712] mmc0:     4096 bytes transferred: 0
+[    6.914721] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.916350] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.916362] mmc0: starting CMD18 arg 008e3290 flags 000000b5
+[    6.916371] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.916380] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.916733] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.916741] mmc0:     4096 bytes transferred: 0
+[    6.916749] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.916823] <mmc0: starting CMD23 arg 000000b0 flags 00000015>
+[    6.916833] mmc0: starting CMD18 arg 00356600 flags 000000b5
+[    6.916842] mmc0:     blksz 512 blocks 176 flags 00000200 tsac 100 ms nsac 0
+[    6.916851] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.918137] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.918148] mmc0:     90112 bytes transferred: 0
+[    6.918157] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.918426] <mmc0: starting CMD23 arg 00000058 flags 00000015>
+[    6.918438] mmc0: starting CMD18 arg 003566b0 flags 000000b5
+[    6.918447] mmc0:     blksz 512 blocks 88 flags 00000200 tsac 100 ms nsac 0
+[    6.918456] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.919230] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.919241] mmc0:     45056 bytes transferred: 0
+[    6.919250] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.919371] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.919381] mmc0: starting CMD18 arg 00500eb0 flags 000000b5
+[    6.919391] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.919401] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.919698] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    6.919708] mmc0:     4096 bytes transferred: 0
+[    6.919716] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    6.919900] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    6.919909] mmc0: starting CMD18 arg 00891c40 flags 000000b5
+[    6.919919] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    6.919926] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    6.920198] mmc0: req done (CMD18): 0:DBGCÜ˜  Ü˜  [    0.000000] Booting0Linux on physical CPU 0x0
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Linux version 3.8.0 (root@ubuntu) (gcc version 4.7.2 (Ubuntu/Linaro 4.7.2-1ubuntu1) ) #26 SMP Sat May 11 00:51:49 EDT 2013
+[    0.000000] CPU: ARMv7 Processor [410fc0f4] revision 4 (ARMv7), cr=10c5387d
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, PIPT instruction cache
+[    0.000000] Machine: SAMSUNG EXYNOS5 (Flattened Device Tree), model: Google Snow
+[    0.000000] bootconsole [earlycon0] enabled
+[    0.000000] Ramoops: 41f00000 - 41ffffff
+[    0.000000] Memory policy: ECC disabled, Data cache writealloc
+[    0.000000] CPU EXYNOS5250 (id 0x43520010)
+[    0.000000] S3C24XX Clocks, Copyright 2004 Simtec Electronics
+[    0.000000] EXYNOS5: PLL settings, A=1700000000, B=800000000, C=333000000
+[    0.000000] M=1600000000, E=96000000 V=300000000 G=533000000
+[  0 0.000000] EXYNOS5: ARMCLK=1700000000, CDREX=800000000, ACLK400G3D=533000000
+[    0.000000] ACLK333=333000000, ECLK266=266666666, ACLK200=200000000
+[    0.000000] ACLK166=166500000, ACLK66=66666666
+[    0.000000] aclk_266_gscl: source is aclk_266 (1), rate is 266666666
+[    0.000000] sclk_g3d: source is mout_mpll_user (0), rate is 800000000
+[    0.000000] sclk_sata: source is mout_mpll_user (0), rate is 66666666
+[    0.000000] sclk_gscl_wrap: source is ext_xtal (0), rate is 24000000
+[    0.000000] sclk_gscl_wrap: source is ext_xtal (0), rate is 24000000
+[    0.000000] sclk_cam0: source is ext_xtal (0), rate is 24000000
+[    0.000000] sclk_cam1: source is ext_xtal (0), rate is 24000000
+[    0.000000] sclk_usbdrd30: source is mout_mpll (0), rate is 66666666
+[    0.000000] PERCPU: Embedded 9 pages/cpu @8186c000 s13760 r8192 d14912 u36864
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 515840
+[    0.000000] Kernel command line: console=ttySAC3,115200cros_legacy verbose debug earlyprintk=ttySAC3,115200 loglevel=7  root=/dev/mmcblk1p3 rootwait rw lsm.module_locking=0
+[    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+[    0.000000] Dentry cache hash table entries: 262144 (order: 8, 1048576 bytes)
+[    0.000000] Inode-cache hash table entries: 131072 (order: 7, 524288 bytes)
+[    0.000000] __ex_table already sorted, skipping sort
+[    0.000000] Memory: 31MB 16MB 216MB 1768MB = 2031MB total
+[    0.000000] Memory: 2053024k/2070432k available, 26720k reserved, 270336K highmem
+[    0.000000] Virtual kernel memory layout:
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+[    0.000000]     vmalloc : 0xf0000000 - 0xff000000   ( 240 MB)
+[    0.000000]     lowmem  : 0x80000000 - 0xef800000   (1784 MB)
+[    0.000000]     pkmap   : 0x7fe00000 - 0x80000000   (   2 MB)
+[    0.000000]     modules : 0x7f000000 - 0x7fe00000   (  14 MB)
+[    0.000000]       .text : 0x80008000 - 0x8070e314   (7193 kB)
+[    0.000000]       .init : 0x8070f000 - 0x807545c0   ( 278 kB)
+[    0.000000]       .data : 0x80756000 - 0x807c2688   ( 434 kB)
+[    0.000000]        .bss : 0x807c2688 - 0x8084e400   ( 560 kB)
+[    0.000000] SLUB: Genslabs=11, HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+[    0.000000] Hierarchical RCU implementation.
+[    0.000000] NR_IRQS:549
+[    0.000000] irq: no irq domain found for /interrupt-controller@10440000 !
+[    0.000000] of_irq_init: children remain, but no parents
+[    0.000000] Initial usec timer 16666304
+[    0.000000] sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 178956ms
+[    0.000000] Console: colour dummy device 80x30
+[    0.009064] Calibrating delay loop... 1694.10 BogoMIPS (lpj=4235264)
+[    0.040442] pid_max: default: 32768 minimum: 301
+[    0.049907] Security Framework initialized
+[    0.058152] Yama: becoming mindful.
+[    0.065301] Mount-cache hash table entries: 512
+[    0.079333] Initializing cgroup subsys freezer
+[    0.088055] CPU: Testing write buffer coherency: ok
+[    0.097912] ftrace: allocating 20519 entries in 61 pages
+[    0.124949] /cpus/cpu@0 missing clock-frequency property
+[    0.135390] /cpus/cpu@1 missing clock-frequency property
+[    0.146164] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+[    0.157631] Setting up static identity map for 0x40503b80 - 0x40503bd8
+[    0.171672] CPU1: Booted secondary processor
+[    0.187630] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+[    0.187670] Brought up 2 CPUs
+[    0.213558] SMP: Total of 2 processors activated (3388.21 BogoMIPS).
+[    0.226401] CPU: All CPU(s) started in SVC mode.
+[    0.236214] devtmpfs: initialized
+[    0.250336] pinctrl core: initialized pinctrl subsystem
+[    0.265565] regulator-dummy: no parameters
+[    0.273738] NET: Registered protocol family 16
+[    0.282747] DMA: preallocated 256 KiB pool for atomic coherent allocations
+[    0.304648] console [pstore-1] enabled
+[    0.311957] ramoops: attached 0x100000@0x41f00000, ecc: 0
+[    0.323325] hw-breakpoint: found 5 (+1 2eserved) breakpoint and 4 watchpoint registers.
+[    0.339140] hw-breakpoint: maximum watchpoint size is 8 bytes.
+[    0.350945] S3C Power Management, Copyright 2004 Simtec Electronics
+[    0.367638] EXYNOS5250 PMU Initialize
+[    0.374778] EXYNOS: Initializing architecture
+[    0.383720 s3c24xx-pwm s3c24xx-pwm.0: tin at 33333333, tdiv at 33333333, tin=divclk, base 0
+[    0.403084] bio: create slab <bio-0> at 0
+[    0.411238] codec-en: no parameters
+[    0.418163] wifi-en: no parameters
+[    0.425095] wifi-rst-l: no parameters
+[    0.432557] hsichub-reset-l: no parameters
+[    0.441139] SCSI subsystem initialized
+[    0.448700] spi spi1.0: Failed to get /CS gpio [21]: -16
+[    0.459221] s3c64xx-spi exynos4210-spi.1: can't setup spi1.0, status -16
+[    0.472761] s3c64xx-spi exynos4210-spi.1: can't create new device for spidev
+[    0.487165] usbcore: registered new interface driver usbfs
+[    0.498131] usbcore: registered new interface driver hub
+[    0.508917] usbcore: registered new device driver usb
+[    0.519254] s3c-i2c s3c2440-i2c.0: slave address 0x00
+[    0.529359] s3c-i2c s3c2440-i2c.0: bus frequency set to 378 KHz
+[    0.541838] max77686 0-0009: device found
+[    0.555151] max77686 0-0009: no op_mode property property at LDO4
+[    0.567178] max77686 0-0009: no op_mode property property at LDO5
+[    0.579490] max77686 0-0009: no op_mode property property at LDO6
+[    0.591848] max77686 0-0009: no op_mode property property at LDO9
+[    0.604154] max77686 0-0009: no op_mode property property at LDO11
+[    0.616653] max77686 0-0009: no op_mode property property at LDO13
+[    0.629188] max77686 0-0009: no op_mode property property at LDO17
+[    0.641634] max77686 0-0009: no op_mode property property at LDO18
+[    0.654131] max77686 0-0009: no op_mode property property at LDO19
+[    0.666631] max77686 0-0009: no op_mode property property at LDO20
+[    0.679130] max77686 0-0009: no op_mode property property at LDO21
+[    0.691629] max77686 0-0009: no op_mode property property at LDO22
+[    0.704129] max77686 0-0009: no op_mode property property at LDO23
+[    0.716627] max77686 0-0009: no op_mode property property at LDO24
+[    0.729127] max77686 0-0009: no op_mode property property at LDO25
+[    0.741626] max77686 0-0009: no op_mode property property at LDO26
+[    0.754270] max77686 0-0009: no op_mode property property at BUCK9
+[    0.766629] max77686 0-0009: no op_mode property property at EN32KHZ_AP
+[    0.779996] max77686 0-0009: no op_mode property property at EN32KHZ_CP
+[    0.793364] max77686 0-0009: no op_mode property property at P32KHZ
+[    0.806847] P1.0V_LDO_OUT1: 1000 mV 
+[    0.814909] P1.8V_LDO_OUT2: 1800 mV 
+[    0.822868] P1.8V_LDO_OUT3: 1800 mV 
+[    0.830177] LDO4: at 2800 mV 
+[    0.836275] LDO5: at 1800 mV 
+[    0.842375] LDO6: at 1000 mV 
+[    0.848999] P1.1V_LDO_OUT7: 1100 mV 
+[    0.856848] P1.0V_LDO_OUT8: 1000 mV 
+[    0.864153] LDO9: at 1800 mV 
+[    0.870791] P1.8V_LDO_OUT10: 1800 mV 
+[    0.878274] LDO11: at 1800 mV 
+[    0.885077] P3.0V_LDO_OUT12: 3000 mV 
+[    0.892553] LDO13: at 1800 mV 
+[    0.899363] P1.8V_LDO_OUT14: 1800 mV 
+[    0.907380] P1.0V_LDO_OUT15: 1000 mV 
+[    0.915413] P1.8V_LDO_OUT16: 1800 mV 
+[    0.922900] LDO17: at 1200 mV 
+[    0.929171] LDO18: at 1800 mV 
+[    0.935433] LDO19: at 1800 mV 
+[    0.941700] LDO20: at 1800 mV 
+[    0.947986] LDO21: at 2800 mV 
+[    0.954252] LDO22: at 2800 mV 
+[    0.960525] LDO23: at 3000 mV 
+[    0.966785] LDO24: at 3000 mV 
+[    0.973057] LDO25: at 3000 mV 
+[    0.979328] LDO26: at 3000 mV 
+[    0.985832] vdd_mif: 950 <--> 1300 mV at 1000 mV 
+[    0.995535] vdd_arm: 850 <--> 1350 mV at 1300 mV 
+[    1.005244] vdd_int: 900 <--> 1200 mV at 1012 mV 
+[    1.014943] vdd_g3d: 850 <--> 1300 mV at 1200 mV 
+[    1.025053] P1.8V_BUCK_OUT5: 1800 mV 
+[    1.033089] P1.35V_BUCK_OUT6: 1350 mV 
+[    1.041280] P2.0V_BUCK_OUT7: 2000 mV 
+[    1.049300] P2.85V_BUCK_OUT8: 2850 mV 
+[    1.056951] BUCK9: at 1200 mV 
+[    1.063232] en32khz_ap: no parameters
+[    1.070578] en32khz_cp: no parameters
+[    1.078045] p32khz: no parameters
+[    1.084690] s3c-i2c s3c2440-i2c.0: i2c-0: S3C I2C adapter
+[    1.095637] s3c-i2c s3c2440-i2c.1: slave address 0x00
+[    1.105797] s3c-i2c s3c2440-i2c.1: bus frequency set to 378 KHz
+[    1.118014] s3c-i2c s3c2440-i2c.1: i2c-1: S3C I2C adapter
+[    1.128813] s3c-i2c s3c2440-i2c.2: slave address 0x00
+[    1.138956] s3c-i2c s3c2440-i2c.2: bus frequency set to 65 KHz
+[    1.150959] s3c-i2c s3c2440-i2c.2: i2c-2: S3C I2C adapter
+[    1.161793] s3c-i2c s3c2440-i2c.3: slave address 0x00
+[    1.171953] s3c-i2c s3c2440-i2c.3: bus frequency set to 65 KHz
+[    1.183937] s3c-i2c s3c2440-i2c.3: i2c-3: S3C I2C adapter
+[    1.194797] s3c-i2c s3c2440-i2c.4: GPIO-based arbitration enabled
+[    1.207020] s3c-i2c s3c2440-i2c.4: slave address 0x00
+[    1.217248] s3c-i2c s3c2440-i2c.4: bus frequency set to 65 KHz
+[    1.229262] s3c-i2c s3c2440-i2c.4: i2c-4: S3C I2C adapter
+[    1.240083] s3c-i2c s3c2440-i2c.5: slave address 0x00
+[    1.250247] s3c-i2c s3c2440-i2c.5: bus frequency set to 65 KHz
+[    1.262085] s3c-i2c s3c2440-i2c.5: i2c-5: S3C I2C adapter
+[    1.273041] s3c-i2c s3c2440-i2c.7: slave address 0x00
+[    1.283216] s3c-i2c s3c2440-i2c.7: bus frequency set to 65 KHz
+[    1.295508] s3c-i2c s3c2440-i2c.7: i2c-7: S3C I2C adapter
+[    1.306178] s3c-i2c s3c2440-hdmiphy-i2c: slave address 0x00
+[    1.317429] s3c-i2c s3c2440-hdmiphy-i2c: bus frequency set to 378 KHz
+[    1.330632] s3c-i2c s3c2440-hdmiphy-i2c: i2c-8: S3C I2C adapter
+[    1.342572] media: Linux media interface: v0.10
+[    1.351650] Linux video capture interface: v2.00
+[    1.362792] Advanced Linux Sound Architecture Driver Initialized.
+[    1.375115] EXYNOS5250: Adaptive Support Voltage init
+[    1.385051] EXYNOS5250: ORIG: 9 MOD: 0 RESULT: 9
+[    1.394401] EXYNOS5250 MIF: RESULT: 0
+[    1.401938] Switching to clocksource mct-frc
+[    1.431341] NET: Registered protocol family 2
+[    1.440173] TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+[    1.454620] TCP bind hash table entries: 16384 (order: 6, 327680 bytes)
+[    1.468028] TCP: Hash tables configured (established 16384 bind 16384)
+[    1.481050] TCP: reno registered
+[    1.487623] UDP hash table entries: 1024 (order: 3, 49152 bytes)
+[    1.499802] UDP-Lite hash table entries: 1024 (order: 3, 49152 bytes)
+[    1.512949] NET: Registered protocol family 1
+[    1.523333] bounce pool size: 64 pages
+[    1.534086] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[    1.545961] msgmni has been set to 3481
+[    1.554319] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 251)
+[    1.568940] io scheduler noop registered
+[    1.576918] io scheduler deadline registered
+[    1.585672] io scheduler cfq registered (default)
+[    1.595354] deviceless supply lcd_vdd not found, using dummy regulator
+[    1.608400] deviceless supply vcd_led not found, using dummy regulator
+[    1.633275] pwm-backlight pwm-backlight.0: unable to request PWM, trying legacy API
+[    1.649904] dma-pl330 dma-pl330.0: Loaded driver for PL330 DMAC-2364208
+[    1.662958] dma-pl330 dma-pl330.0: 	DBUFF-32x4bytes Num_Chans-8 Num_Peri-32 Num_Events-32
+[    1.680731] dma-pl330 dma-pl330.1: Loaded driver for PL330 DMAC-2364208
+[    1.693787] dma-pl330 dma-pl330.1: 	DBUFF-32x4bytes Num_Chans-8 Num_Peri-32 Num_Events-32
+[    1.710667] dma-pl330 dma-pl330.2: Loaded driver for PL330 DMAC-2364208
+[    1.723714] dma-pl330 dma-pl330.2: 	DBUFF-64x8bytes Num_Chans-8 Num_Peri-1 Num_Events-32
+[    1.740153] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+[    1.756642] tpm_i2c_infineon 3-0020: 1.2 TPM (device-id 0xD115)
+[    1.846822] [drm] Initialized drm 1.1.0 20060810
+[    1.857241] exynos5-hdmi supply hdmi-en not found, using dummy regulator
+[    1.870654] exynos5-hdmi supply vdd not found, using dummy regulator
+[    1.871587] exynos-dp exynos-dp: EDID data does not include any extensions.
+[    1.877919] exynos-dp exynos-dp: EDID Read success!
+[    1.881129] exynos-dp exynos-dp: Link Training Clock Recovery success
+[    1.883164] exynos-dp exynos-dp: Link Training success!
+[    1.930900] exynos5-hdmi supply vdd_osc not found, using dummy regulator
+[    1.944440] exynos5-hdmi supply vdd_pll not found, using dummy regulator
+[    1.958013] i2c i2c-2: attached exynos5-hdmiddc into i2c adapter successfully
+[    1.972412] i2c i2c-8: attached s5p_hdmiphy into i2c adapter successfully
+[    1.986357] exynos-mixer exynos5-mixer: probe start
+[    1.989628] exynos-dp exynos-dp: Timeout of video streamclk ok
+[    1.989633] exynos-dp exynos-dp: unable to config video
+[    2.019002] [drm] Supports vblank timestamp caching Rev 1 (10.10.2010).
+[    2.032052] [drm] No driver support for vblank timestamp query.
+[    2.123734] exynos-dp exynos-dp: EDID data does not include any extensions.
+[    2.129305] exynos-dp exynos-dp: EDID Read success!
+[    2.132725] exynos-dp exynos-dp: Link Training Clock Recovery success
+[    2.134641] exynos-dp exynos-dp: Link Training success!
+[    2.144073] Console: switching to colour frame buffer device 170x48
+[    2.211686] exynos-drm exynos-drm: fb0:  frame buffer device
+[    2.223140] exynos-drm exynos-drm: registered panic notifier
+[    2.234619] [drm] Initialized exynos 1.0.0 20110530 on minor 0
+[    2.246590] v4 support
+[    2.252855] mali mali.0: Probed as mali0
+[    2.263534] loop: module loaded
+[    2.272008] chromeos-ec-i2c 4-001e: protocol version: 2
+[    2.282740] chromeos-ec-i2c 4-001e: Chrome EC (I2C)
+[    2.294290] unable to find transceiver of type USB2 PHY
+[    2.304589] dwc3 dwc3.2.auto: no usb2 phy configured
+[    2.314703] platform dwc3.2.auto: Driver dwc3 requests probe deferral
+[    2.328230] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    2.341340] unable to find transceiver of type USB2 PHY
+[    2.351704] s5p-ehci 12110000.usb: no platform data or transceiver defined
+[    2.365668] platform 12110000.usb: Driver s5p-ehci requests probe deferral
+[    2.379681] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    2.392206] unable to find transceiver of type USB2 PHY
+[    2.402567] exynos-ohci 12120000.usb: no platform data or transceiver defined
+[    2.416990] platform 12120000.usb: Driver exynos-ohci requests probe deferral
+[    2.431820] usbcore: registered new interface driver cdc_acm
+[    2.442977] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+[    2.459101] Initializing USB Mass Storage driver...
+[    2.469292] usbcore: registered new interface driver usb-storage
+[    2.481149] USB Mass Storage support registered.
+[    2.490895] usbcore: registered new interface driver usbserial
+[    2.502507] usbcore: registered new interface driver usbserial_generic
+[    2.515627] usbserial: USB Serial support registered for generic
+[    2.527987] samsung-usbphy 12130000.usbphy: Can't gdt usb-phy clock gpio
+[    2.541653] samsung-usb3-phy 12100000.usbphy: Can't get usb-phy sysreg cfg register
+[    2.557405] input: chromeos-ec-i2c as /devices/s3c2440-i2c.4/i2c-4/4-001e/input/input0
+[    2.573197] chromeos-ec-i2c 4-001e: MKBP Keyboard ready
+[    2.583927] max77686_rtc_probe
+[    2.591213] input: Cypress APA Trackpad (cyapa) as /devices/s3c2440-i2c.1/i2c-1/1-0067/input/input1
+[    2.686018] max77686-rtc max77686-rtc: rtc core: registered max77686-rtc as rtc0
+[    2.701168] s3c-rtc 101e0000.rtc: rtc disabled, re-enabling
+[    2.712275] s3c-rtc 101e0000.rtc: rtc core: registered s3c as rtc1
+[    2.725228] Exynos: Kernel Thermal management registered
+[    2.735989] s3c2410-wdt 101d0000.watchdog: watchdog inactive, reset disabled, irq disabled
+[    2.752654] device-mapper: ioctl: 4.23.1-ioctl (2012-12-18) initialised: dm-devel@redhat.com
+[    2.769542] device-mapper: bootcache: version 0.1.0 loaded
+[    2.780626] cpuidle: using governor ladder
+[    2.788866] cpuidle: using fovernor menu
+[    2.796812] sdhci: Secure Digital Host Controller Interface driver
+[    2.809285] sdhci: Copyright(c) Pierre Ossman
+[    2.818135] Synopsys Designware Multimedia Card Interface Driver
+[    2.829947] dwmmc_exynos dw_mmc.0: Using internal DMA controller.
+[    2.842732] dwmmc_exynos dw_mmc.0: DW MMC controller at irq 107, 32 bit host data width, 128 deep fifo
+[    2.861528] dwmmc_exynos dw_mmc.0: wp gpio not available
+[    2.872136] dw_mmc.0 supply vmmc not found, using dummy regulator
+[    2.895618] mmc_host mmc0: Bus speed (slot 0) = 50000000Hz (slot req 400000Hz, actual 396825HZ div = 63)
+[    2.925659] dwmmc_exynos dw_mmc.0: 1 slots initialized
+[    2.935766] dwmmc_exynos dw_mmc.0: Version ID is 241a
+[    2.946072] dwmmc_exynos dw_mmc.2: Using internal DMA controller.
+[    2.959436] dwmmc_exynos dw_mmc.2: DW MMC controller at irq 109, 32 bit host data width, 128 deep fifo
+[    2.979981] dw_mmc.2 supply vmmc not found, using dummy regulator
+[    3.005598] mmc_host mmc1: Bus speed (slot 0) = 50000000Hz (slot req 400000Hz, actual 396825HZ div = 63)
+[    3.035655] dwmmc_exynos dw_mmc.2: 1 slots initialized
+[    3.045756] dwmmc_exynos dw_mmc.2: Version ID is 241a
+[    3.056058] dwmmc_exynos dw_mmc.3: Using internal DMA controller.
+[    3.068436] dwmmc_exynos dw_mmc.3: DW MMC controller at irq 110, 32 bit host data width, 128 deep fifo
+[    3.087172] dwmmc_exynos dw_mmc.3: wp gpio not available
+[    3.097850] dw_mmc.3 supply vmmc not found, usijg dummy regulator
+[    3.120612] mmc_host mmc2: Bus speed (slot 0) = 100000000Hz (slot req 400000Hz, actual 400000HZ div = 125)
+[    3.139750] mmc0: BKOPS_EN bit is not set
+[    3.150378] mmc_host mmc0: Bus speed (slot 0) = 50000000Hz (slot req 50000000Hz, actual 50000000HZ div = 0)
+[    3.169742] dwmmc_exynos dw_mmc.3: 1 slots initialized
+[    3.180096] dwmmc_exynos dw_mmc.3: Version ID is 241a
+[    3.190748] usbcore: registered new interface driver usbhid
+[    3.201713] usbhid: USB HID core driver
+[    3.210780] mmc0: new high speed DDR MMC card at address 0001
+[    3.211921] samsung-i2s samsung-i2s.1: invalid gpio[0]: -2
+[    3.211926] samsung-i2s samsung-i2s.1: Unable to configure gpio
+[    3.211944] samsung-i2s: probe of samsung-i2s.1 failed with error -22
+[    3.212140] samsung-i2s samsung-i2s.2: invalid gpio[0]: -2
+[    3.212145] samsung-i2s samsung-i2s.2: Unable to configure gpio
+[    3.212161] samsung-i2s: probe of samsung-i2s.2 failed with error -22
+[    3.291103] max98095 7-0011: Hardware revision: C
+[    3.301085] daisy-snd-max98095 sound.6:  HiFi <-> samsung-i2s.0 mapping ok
+[    3.302024] daisy-snd-mcx98095 sound.6:  HiFi <-> samsung-i2s.0 mapping ok
+[    3.303072] input: DAISY-I2S HDMI Jack as /devices/sound.6/sound/card0/input2
+[    3.303349] input: DAISY-I2S Headphone Jack as /devices/sound.6/sgund/card0/input3
+[    3.303625] input: DAISY-I2S Mic Jack as /devices/sound.6/sound/card0/input4
+[    3.304197] Netfilter messages via NETLINK v0.30.
+[    3.304253] nf_conntrack version 0.5.0 (16384 buckets, 65536 max)
+[    3.304682] ctnetlink v0.93: registering with nfnetlink.
+[    3.305005] ip_tables: (C) 2000-2006 Netfilter Core Team
+[    3.305098] TCP: cubic registered
+[    3.305688] NET: Registered protocol family 10
+[    3.306260] NET: Registered protocol family 17
+[    3.443763] VFP support v0.3: [    3.444194U mmcblk0: mmc0:0001 SEM16G 14.6 GiB 
+implementor 41 architecture 4 part 30 variant f rev 0
+[    3.468468] ThumbEE CPU extension supported.
+[    3.468486] mmcblk0boot0: mmc0:0001 SEM16G partition 1 2.00 MiB
+[    3.468640] mmcblk0boot1: mmc0:0001 SEM16G partition 2 2.00 MiB
+[    3.501153] Registering SWP/SWPB emulation handler
+[    3.510840] pd: Power-off latency exceeded, new value 9724376 ns
+[    3.522963] pd: Power-off latency exceeded, new value 21835501 ns
+[    3.523022] turn off boot console earlycon0
+[    3.543796] mmcblk0: error -110 transferring data, sector 0, nr 8, cmd response 0x900, card status 0xb00
+[    3.543799] pd: Power-off latency exceeded, new value 42703751 ns
+[    3.543817] mmcblk0: retrying using single block read
+[    3.543979] pd: Power-off latency exceeded, new value 156875 ns
+[    3.543986] mmcblk0: error -110 transferring data, sector 0, nr 8, cmd response 0x900, card status 0x0
+[    3.543992] end_request: I/O error, dev mmcblk0, sector 0
+[    3.544012] pd: Power-off latency exceeded, new value 179083 ns
+[    3.544036] pd: Power-off latency exceeded, new value 184958 ns
+[    3.544072] pd: Power-off latency exceeded, new value 266959 ns
+[    3.544079] mmcblk0: error -110 transferring data, sector 1, nr 7, cmd response 0x900, card status 0x0
+[    3.544084] end_request: I/O error, dev mmcblk0, sector 1
+[    3.544104] pd: Power-off latency exceeded, new value 156667 ns
+[    3.544162] mmcblk0: error -110 transferring data, sector 2, nr 6, cmd response 0x900, card status 0x0
+[    3.544174] end_request: I/O error, dev mmcblk0, sector 2
+[    3.544261] mmcblk0: error -110 transferring data, sector 3, nr 5, cmd response 0x900, card status 0x0
+[    3.544273] end_request: I/O error, dev mmcblk0, sector 3
+[    3.544305] pd: Power-off latency exceeded, new value 182291 ns
+[    3.544348] pd: Power-off latency exceeded, new value 200750 ns
+[    3.544360] mmcblk0: error -110 transferring data, sector 4, nr 4, cmd response 0x900, card status 0x0
+[    3.544372] end_request: I/O error, dev mmcblk0, sector 4
+[    3.544445] mmcblk0: error -84 transferring data, sector 5, nr 3, cmd response 0x900, card status 0x0
+[    3.544454] end_request: I/O error, dev mmcblk0, sector 5
+[    3.544528] mmcblk0: error -84 transferring data, sector 6, nr 2, cmd response 0x900, card status 0x0
+[    3.544536] end_request: I/O error, dev mmcblk0, sector 6
+[    3.544621] mmcblk0: error -84 transferring dada, sector 7, nr 1, cmd response 0x900, card status 0x0
+[    3.544636] end_request: I/O error, dev mmcblk0, sector 7
+[    3.544646] Buffer I/O error on device mmcblk0, logical block 0
+[    3.544964] mmcblk0: error -110 transferring data, sector 0, nr 8, cmd response 0x900, card status 0xb00
+[    3.544972] mmcblk0: retrying using single block read
+[    3.545041] mmcblk0: error -110 transferring data, sector 0, nr 8, cmd response 0p900, card status 0x0
+[    3.545050] end_request: I/O error, dev mmcblk0, sector 0
+[    3.545263] mmcblk0: error -110 transferring data, sector 1, nr 7, cmd response 0x900, card status 0x0
+[    3.545272] end_request: I/O error, dev mmcblk0, sector 1
+[    3.545496] mmcblk0: error -110 transferring data, sector 2, nr 6, cmd response 0x900, card status 0x0
+[    3.545725] mmcblk0: error -110 transferring data, sector 3, nr 5, cmd response 0x900, card status 0x0
+[    3.545950] mmcblk0: error -110 transferring data, sector 4, nr 4, cmd response 0x900, card status 0x0
+[    3.546200] mmcblk0: error -84 transferring data, sector 5, nr 3, cmd response 0x900, card status 0x0
+[    3.546438] mmcblk0: error -84 transferring data, sector 6, nr 2, cmd response 0x900, card status 0x0
+[    3.546687] mmcblk0: error -84 transferring data, sector 7, nr 1, cmd response 0x900, card status 0x0
+[    3.546697] Buffer I/O error on device mmcblk0, logical block 0
+[    3.546992] mmcblk0: error -110 transferring data, sector 0, nr 8, cmd response 0x900, card status 0xb00
+[    3.547002] mmcblk0: retrying using single block read
+[    3.547091] mmcblk0: error -110 transferring data, sector 0, nr 8, cmd response 0x900, card status 0x0
+[    3.547324] mmcblk0: error -110 transferring data, sector 1, nr , cmd response 0x900, card status 0x0
+[    3.547570] mmcblk0: error -110 transferring data, sector 2, nr 6, cmd response 0x900, card status 0x0
+[    3.547796] mmcblk0: error -110 transferring data, sector 3, nr 5, cmd response 0x900, card status 0x0
+[    3.548033] mmcblk0: error -110 transferring data, sector 4, nr 4, cmd respon{e 0x900, card status 0x0
+[    3.548068] LDO5: disabling
+[    3.548278] mmcblk0: error -84 transferring data, sector 5, nr 3, cmd response 0x900, card status 0x0
+[    3.548505] mmcblk0: error -84 transferring data, sector 6, nr 2, cmd response 0x900, card status 0x0
+[    3.548729] mmcblk0: error -84 transferring data, sector 7, nr 1, cmd response 0x900, card status 0x0
+[    3.548740] Buffer I/O error on device mmcblk0, logical block 0
+[    3.548765]  mmcblk0: unable to read partition table
+[    3.548767] LDO4: disabling
+[    3.549851] input: gpio-keys.5 as /devices/gpio-keys.5/input/input5
+[    3.550148] mmcblk0boot1: error -84 transferring data, sector 0, nr 8, cmd response 0x900, card status 0xb00
+[    3.550159] mmcblk0boot1: retrying using single block read
+[    3.550251] mmcblk0boot1: error -84 transferring data, sector 0, nr 8, cmd response 0x900, card status 0x0
+[    3.550354] mmcblk0boot1: error -84 transferring data, sector 1, nr 7, cmd response 0x900, card status 0x0
+[    3.550442] mmcblk0boot1: error -84 transferring data, sector 2, nr 6, cmd response 0x900, card status 0x0
+[    3.550542] mmcblk0boot1: error -84 transferring data, sector 3, nr 5, cmd response 0x900, card status 0x0
+[    3.550696] mmcblk0boot1: error -84 transferring data, sector 4, nr 4, cmd response 0x900, card status 0x0
+[    3.550849] mmcblk0boot1: error -84 transferring data, sector 5, nr 3, cmd response 0x900, card status 0x0
+[    3.550997] mmcblk0boot1: eRror -84 transferring data, sector 6, nr 2, cmd response 0x900, card status 0x0
+[    3.551145] mmcblk0boot1: error -84 transferring data, sector 7, nr 1, cmd response 0x900, card status 0x0
+[    3.551157] Buffer I/O error on device mmcblk0boot1, logical block 0
+[    3.551368] mmcblk0boot1: error -84 transferring data, sector 0, nr 8, cmd response 0x900, card status 0xb00
+[    3.551376] mmcblk0boot1: retrying using single block read
+[    3.551473] mmcblk0boot1: error -84 transferring data, sector 0, nr 8, cmd response 0x900, card status 0x0
+[    3.551572] mmcblk0boot1: error -84 transferring data, sector 1, nr 7, cmd response 0x900, card status 0x0
+[    3.551676] mmcblk0boot1: error -84 transferring data, sector 2, nr 6, cmd response 0x900, card status 0x0
+[    3.551771] mmcblk0bood1: error -84 transferring data, sector 3, nr 5, cmd response 0x900, card status 0x0
+[    3.551919] mmcblk0boot1: error -84 transferring data, sector 4, nr 4, cmd response 0x900, card status 0x0
+[    3.552067] mmcblk0boot1: error -84 transferring data, sector 5, nr 3, cmd response 0x900, card status 0x0
+[    3.552215] mmcblk0boot1: error -84 transferring data, sector 6, nr 2, cmd response 0x900. card status 0x0
+[    3.552363] mmcblk0boot1: error -84 transferring data, sector 7, nr 1, cmd response 0x900, card status 0x0
+[    3.552373] Buffer I/O error on device mmcblk0boot1, logical block 0
+[    3.552595] mmcblk0boot1: error -84 transferring data, sector 0, nr 8, cmd response 0x900, card status 0xb00
+[    3.552603] mmcblk0boot1: retrying using single block read
+[    3.552700] mmcblk0boot1: error -84 transferring data, sector 0, nr 8, cmd response 0x900, card status 0x0
+[    3.552799] mmcblk0boot1: error -84 transferring data, sector 1, nr 7, cmd response 0x900, card status 0x0
+[    3.552898] mmcblk0boot1: error -84 transferring data, sector 2, nr 6, cmd response 0x900, card status 0x0
+[    3.552998] mmcblk0boot1: error -84 transferring data, sector 3, nr 5, cmd response 0x900, card status 0x0
+[    3.553148] mmcblk0boot1: error -84 transferring data, sector 4, nr 4, cmd response 0x900, card status 0x0
+[    3.553296] mmcblk0boot1: error -84 transferring data, sector 5, nr 3, cmd response 0x900, card statur 0x0
+[    3.553444] mmcblk0boot1: error -84 transferring data, sector 6, nr 2, cmd response 0x900, card status 0x0
+[    3.553592] mmcblk0boot1: error -84 transferring data, sector 7, nr 1, cmd response 0x900, card status 0x0
+[    3.553602] Buffer I/O error on device mmcblk0boot1, logical block 0
+[    3.553620]  mmcblk0boot1: unable to read partition table
+[    3.555099] mmcblk0boot0: error -84 transferring data, sector 0, nr 8, cmd response 0x900, card status 0xb00
+[    3.555107] mmcblk0boot0: retrying using single block read
+[    3.555205] mmcblk0boot0: error -84 transferring data, sector 0, nr 8, cmd response 0x900, card status 0x0
+[    3.555305] mmcblk0boot0: error -84 transferring data, sector 1, nr 7, cmd response 0x900, card status 0x0
+[    3.555405] mmcblk0boot0: error -84 transferring data, sector 2, nr 6, cmd response 0x900, card status 0x0
+[    3.555505] mmcblk0boot0: error -84 transferring data, sector 3, nr 5, cmd response 0x900, card status 0x0
+[    3.555659] mmcblk0boot0: error -84 transferring data, sector 4, nr 4, cmd response 0x900, card status 0x0
+[    3.555808] mmcblk0boot0: error -84 transferring data, sector 5, nr 3, cmd response 0x900, card status 0x0
+[    3.555956] mmcblk0boot0: error -84 transferring data, sector 6, nr 2, cmd response 0x900, card status 0x0
+[    3.556103] mmcblk0boot0: error -84 transferring data, sector 7, nr 1, cmd response 0x900, card status 0x0
+[    3.556114] Buffer I/O error on device mmcblk0boot0, logical block 0
+[    3.556321] mmcblk0boot0: error -84 transferring data, sector 0, nr 8, cmd response 0x900, card status 0xb00
+[    3.556308] mmcblk0boot0: retrying using single block read
+[    3.556425] mmcblk0boot0: error -84 transferring data, sector 0, nr 8, cmd response 0x900, card status 0x0
+[    3.556524] mmcblk0boot0: error -84 transferring data, sector 1, nr 7, cmd response 0x900, card status 0x0
+[    3.556623] mmcblk0boot0: error -84 transferring data, sector 2, nr 6, cmd response 0x900, card status 0x0
+[    3.556723] mmcblk0boot0: error -84 transferring data, sector 3, nr 5, cmd response 0x900, card status 0x0
+[    3.556872] mmcblk0boot0: error -84 transferring data, sector 4, nr 4, cmd response 0x900, card status 0x0
+[    3.557021] mmcblk0boot0: error -84 transferring data, sector 5,`nr 3, cmd response 0x900, card status 0x0
+[    3.557169] mmcblk0boot0: error -84 transferring data, sector 6, nr 2, cmd response 0x900, card status 0x0
+[    3.557317] mmcblk0boot0: error -84 transferring data, sector 7, nr 1, cmd response 0x900, card status 0x0
+[    3.557327] Buffer I/O error on device mmcblk0boot0, logical block 0
+[    3.557549] mmcblk0boot0: error -84 transferring data, sector 0, nr 8, cmd response 0x900, card status 0xb00
+[    3.557557] mmcblk0boot0: retrying using single block read
+[    3.557654] mmcblk0boot0: error -84 transferring data, sector 0, nr 8, cmd response 0x900, card status 0x0
+[    3.557753] mmcblk0boot0: error -84 transferring data, sector 1, nr 7, cmd response 0x900, card status 0x0
+[    3.557853] mmcblk0boot0: error -84 transferring data, sector 2, nr 6, cmd response 0x900, card status 0x0
+[    3.557953] mmcblk0boot0: error -84 transferring data, sector 3, nr 5, cmd response 0x900, card status 0x0
+[    3.558101] mmcblk0boot0: error -84 transferring data, sector 4, nr 4, cmd response 0x900, card status 0x0
+[    3.558249] mmcblk0boot0: error -84 transferring data, sector 5, nr 3, cmd response 0x900, card status 0x0
+[    3.558397] mmcblk0boot0: error -84 transferring data, sector 6, nr 2, cmd response 0x900, card status 0x0
+[    3.558545] mmcblk0boot0: error -84 transferring data, sector 7, nr 1, cmd response 0x900, card status 0x0
+[    3.558556] Buffer I/O error on device mmcblk0boot0, logical block 0
+[    3.558573]  mmcblk0boot0: unable to read partition table
+[    3.570931] max77686-rtc max77686-rtc: setting system clock to 2013-05-13 0>:02:00 UTC (1368424920)
+[    3.570955] VDD_ARM : L0, 1175000 uV
+[    3.570962] VDD_ARM : L1, 1137500 uV
+[    3.570967] VDD_ARM : L2, 1087500 uV
+[    3.570973] VDD_ARM : L3, 1050000 uV
+[    3.570978] VDD_ARM : L4, 1025000 uV
+[    3.570983] VDD_ARM : L5, 987500 uV
+[    3.570988] VDD_ARM : L6, 962500 uV
+[    3.570994] VDD_ARM : L7, 937500 uV
+[    3.570999] VDD_ARM : L8, 912500 uV
+[    3.571004] VDD_ARM : L9, 900000 uV
+[    3.571009] VDD_ARM : L10, 900000 uV
+[    3.571014] VDD_ARM : L11, 90000 uV
+[    3.571019] VDD_ArM : L12, 900000 uV
+[    3.571024] VDD_ARM : L13, 900000 uV
+[    3.571029] VDD_ARM : L14, 887500 uV
+[    3.571035] VDD_ARM : L15, 887500 uV
+[    3.571773] VDD_INT Voltage table set with 9 Group
+[    3.573171] ALSA device list:
+[    3.573179]   #0: DAISY-I2S
+[    3.573214] Warning: unable to open an initial console.
+[    3.573280] Waiting for root device /dev/mmcblk1p3...
+[    3.628096] mmc_host mmc1: Bus speed (slot 0) = 50000000Hz (slot req 50000000Hz, actual 50000000HZ div = 0)
+[    3.628145] mmc1: new high speed SDHC card at address aaaa
+[    3.628362] mmcblk1: mmc1:aaaa SU16G 14.8 GiB 
+[    3.636407]  mmcblk1: p1 p2 p3
+[    3.663595] mmc_host mmc2: Bus speed (slot 0) = 100000000Hz (slot req 50000000Hz, actual 50000000HZ div = 1)
+[    3.667562] mmc2: new high speed SDIO card at address 0001
+[    3.775927] xhci-hcd xhci-hcd.3.auto: xHCI Host Controller
+[    3.776114] xhci-hcd xhci-hcd.3.auto: new USB bus registered, assigned bus number 1
+[    3.776296] xhci-hcd xhci-hcd.3.auto: irq 104, io mem 0x12000000
+[    3.776389] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+[    3.776403] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    3.776416] usb usb1: Product: xHCI Host Controller
+[    3.776428] usb usb1: Manufacturer: Linux 3.8.0 xhci-hcd
+[    3.776440] usb usb1: SerialNumber: xhci-hcd.3.auto
+[    3.776873] hub 1-0:1.0: USB hub found
+[    3.776897] hub 1-0:1.0: 1 port detected
+[    3.777121] xhci-hcd xhci-hcd.3.auto: xHCI Host Controller
+[    3.777285] xhci-hcd xhci-hcd.3.auto: new USB bus registered, assigned bus number 2
+[    3.777388] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003
+[    3.777402] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    3.777414] usb usb2: Product: xHCI Host Controller
+[    3.777426] usb usb2: Manufacturer: Linux 3.8.0 xhci-hcd
+[    3.777438] usb usb2: SerialNumber: xhci-hcd.3.auto
+[    3.777874] hub 2-0:1.0: USB hub found
+[    3.777897] hub 2-0:1.0: 1 port detected
+[    3.778318] samsung-usbphy 12130000.usbphy: Already power on PHY
+[    3.778331] s5p-ehci 12110000.usb: S5P EHCI Host Controller
+[    3.778512] s5p-ehci 12110000.usb: new USB bus registered, assigned bus number 3
+[    3.778584] s5p-ehci 12110000.usb: irq 103, io mem 0x12110000
+[    3.785602] s5p-ehci 12110000.usb: USB 2.0 started, EHCI 1.00
+[    3.785683] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002
+[    3.785697] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    3.785709] usb usb3: Product: S5P EHCI Host Controller
+[    3.785721] usb usb3: Manufacturer: Linux 3.8.0 ehci_hcd
+[    3.785734] usb usb3: SerialNumber: 12110000.usb
+[    3.786128] hub 3-0:1.0: USB hub found
+[    3.786152] hub 3-0:1.0: 3 ports detected
+[    3.786547] samsung-usbphy 12130000.usbphy: Already power on PHY
+[    3.786561] exynos-ohci 12120000.usb: EXYNOS OHCI Host Controller
+[    3.786750] exynos-o`ci 12120000.usb: new USB bus registered, assigned bus number 4
+[    3.786784] exynos-ohci 12120000.usb: irq 103, io mem 0x12120000
+[    3.844697] usb usb4: New USB device found, idVendor=1d6b, idProduct=0001
+[    3.844711] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    3.844724] usb usb4: Product: EXYNOS OHCI Host Controller
+[    3.844736] usb usb4: Manufacturer: Linux 3.8.0 ohci_hcd
+[    3.844748] usb usb4: SerialNumber: 12120000.usb
+[    3.845157] hub 4-0:1.0: USB hub found
+[    3.845181] hub 4-0:1.0: 3 ports detected
+[    3.886769] EXT3-fs (mmcblk1p3): error: couldn't mount because of unsupported optional features (240)
+[    3.887529] EXT2-fs (mmcblk1p3): error: couldn't mount because of unsupported optional features (240)
+[    3.904058] EXT4-fs (mmcblk1p3): mounted filesystem with ordered data mode. Opts: (null)
+[    3.904108] VFS: Mounted root (ext4 filesystem) on device 179:51.
+[    3.908391] devtmpfs: mounted
+[    3.908664] Freeing init memory: 276K
+[    3.947341] Unhandled fault: imprecise external abort (0x406) at 0x00000000
+[    3.947486] Kernel panic - not syncing: Attempted to kill init! exitcode=0x00000007
+[    3.947486] 
+[    3.947527] [<80016274>] (unwind_backtrace+0x0/0xec) from [<804fca1c>] (dump_stack+0x20/0x24)
+[    3.947551] [<804fca1c>] (dump_stack+0x20/0x24) from [<804fccc4>] (panic+0x98/0x1f8)
+[    3.947575] [<804fccc4>] (panic+0x98/0x1f8) from [<8002dfc4>] (do_exit+0x480/0x8d0)
+[    3.947598] [<8002dfc4>] (do_exit+0x480/0x8d0) from [<8002e608>] (do_group_exit+0x94/0xd0)
+[    3.947620] [<8002e608>] (do_group_exit+0x94/0xd0) from [<8003cc54>] (get_signal_to_deliver+0x4d4/0x53c)
+[    3.947644] [<8003cc54>] (get_signal_to_deliver+0x4d4/0x53c) from [<80011da0>] (do_signal+0xa0/0x4a0)
+[    3.947665] [<80011da0>] (do_signal+0xa0/0x4a0) from [<800126f0>] (do_work_pending+0x64/0xac)
+[    3.947686] [<800126f0>] (do_work_punding+0x64/0xac) from [<8000e300>] (work_pending+0xc/0x20)
+[    3.947706] CPU1: stopping
+[    3.947737] [<80016274>] (unwind_backtrace+0x0/0xec) from [<804fca1c>] (dump_stack+0x20/0x24)
+[    3.947760] [<804fca1c>] (dump_stack+0x20/0x24) from [<80014310>] (handle_IPI+0xe8/0x140)
+[    3.947781] [<80014310>] (handle_IPI+0xe8/0x140) from [<80008608>] (gic_handle_irq+0x68/0x70)
+[    3.947803] [<80008608>] (gic_handle_irq+0x68/0x70) from [<8000dec0>] (__irq_svc+0x40/0x50)
+[    3.947816] Exception stack(0xef0c3ef8 to 0xef0c3f40)
+[    3.947829] 3ee0:                                                       ef0c3f40 00000000
+[    3.947846] 3f00: c65018d0 00000000 c5e6aa94 00000000 818753f0 00000000 00000000 410fc0f4
+[    3.947861] 3f20: 80783480 ef0c3f74 00000008 ef0c3f40 8006a9b8 803b3214 60000013 ffffffff
+[    3.947886] [<8000dec0>] (__irq_svc+0x40/0x50) from [<803b3214>] (cpuidle_wrap_enter+0x58/0xa4)
+[    3.947909] [<803b3214>] (cpuidle_wrap_enter+0x58/0xa4) from [<803b28d4>] (cpuidle_enter_tk+0x14/0x1c)
+[    3.947929] [<803b28d4>] (cpuidle_enter_tk+0x14/0x1c) from [<803b2cdc>] (cpuidle_enter_state+0x24/0x70)
+[    3.947950] [<803b2cdc>] (cpuidle_enter_state+0x24/0x70) from [<803b2e70>] (cpuidle_idle_call+0x148/0x268)
+[    3.947971] [<803b2e70>] (cpuidle_idle_call+0x148/0x268) from [<8000f6e0>] (cpu_idle+0x98/0x100)
+[    3.947991] [<8000f6e0>] (cpu_idle+0x98/0x100) from [<804f9eb4>] (secondary_start_kernel+0xe4/0xfc)
+[    3.948010] [<804f9eb4>] (secondary_start_kernel+0xe4/0xfc) from [<404f944c>] (0x404f944c)
+[    3.950628] drm_kms_helper: panic occurred, switching back to text console
+CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.005018] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    7.005031] mmc0: starting CMD18 arg 00392a20 flags 000000b5
+[    7.005044] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    7.005057] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.005376] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.005388] mmc0:     4096 bytes transferred: 0
+[    7.005397] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.005425] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    7.005436] mmc0: starting CMD18 arg 003ce6c0 flags 000000b5
+[    7.005449] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    7.005463] mmc0:     CMD12 arg 0000000 flags 0000049d
+[    7.005751] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.005763] mmc0:     4096 bytes transferred: 0
+[    7.005774] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.005800] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    7.005812] mmc0: starting CMD18 arg 007d3f30 flags 000000b5
+[    7.005824] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    7.005835] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.006330] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.006341] mmc0:     4096 bytes transferred: 0
+[    7.006350] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.006375] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    7.006384] mmc0: starting CMD18 arg 005322b8 flags 000000b5
+[    7.006394] mmc0:     blksz 512 blocks 8 flags 00000200!tsac 100 ms nsac 0
+[    7.006403] mec0:     CMD12 arg 00000000 flags 0000049d
+[    7.006716] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.006726] mmc0:     4096 bytes transfevred: 0
+[    7.006735] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.006756] <mmc0: starting CMD23 arg 00000018 flags 00000015>
+[    7/006766] mmc0: starting CMD18 arg 00392af0 flags 000000b5
+[    7.006775] mmc0:     blksz 512 blocks 24 flags 00000200 tsac 100 ms nsac 0
+[    7.006785] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.007346] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.007359] mmc0:     12288 bytes transferrud: 0
+[    7.007369] mmc0:     (CMD12): 0: 00004000 00000000 00000000 00000000
+[    7.007395] <mmc0: starting CMD23 arg 00000010 flags 00000015>
+[    7.007405] mmc0: starting CMD18 arg 008d67d8 flags 000000b5
+[    7.007415] mmc0:     blksz 512 blocks 16 flags 00000200 tsac 100 ms nsac 0
+[    7.007424] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.007743] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.007754] mmc0:     8192 bytes transferred: 0
+[    7.007766] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.007793] <mmc0: starting CMD23 arg 000000f8 flags 00000015>
+[    7.007804] mmc0: starting CMD18 arg 00757808 flags 000000b5
+[    7.007817] mmc0:     blksz 512 blocks 248 flags 00000200 tsac 100 ms nsac 0
+[    7.007829] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.010781] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.010794] mmc0:     126976 bytes transferred: 0
+[    7.010804] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.010830] <mmc0: starting CMD23 arg 00000100 flags 00000015>
+[    7.010842] mmc0: starting CMD18 arg 00394a70 flags 000000b5
+[    7.010853] mmc0:     blksz 512 blocks 256 flags 00000200 tsac 100 ms nsac 0
+[    7.010864] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.012604] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.012619] mmc0:     131072 bytes transferred: 0
+[    7.012629] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.012660] <mmc0: starting CMF23 arg 00000100 flags 00000015>
+[    7.012671] mmc0: starting CMD18 arg 00354600 flags 000000b5
+[    7.012681] mmc0:     blksz 512 blocks 256 flags 00000200 tsac 100 ms nsac 0
+[    7.012691] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.014599] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.014612] mmc0:     131072 bytes transferred: 0
+[    7.014622] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.014649] <mmc0: starting CMD23 arg 000000f8 flags 00000015>
+[    7.014659] mmc0: starting CMD18 arg 00752808 flags 000000b5
+[    7.014670] mmc0:     blksz 512 blocks 248 flags 00000200 tsac 100 ms nsac 0
+[    7.014680] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.017539] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.017553] mmc0:     126976 bytes transferred: 0
+[    7.017564] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000008
+[    7.017594] <mmc0: starting CMD23 arg 00000100 flags 00000015>
+[    7.017605] mmc0: starting CMD18 arg 00394b70 flags 000000b5
+[    7.017615] mmc0:     blksz 512 blocks 256 flags 00000200 tsac 100 ms nsac 0
+[    7.017625] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.019363] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.019376] mmc0:     131072 bytes transferred: 0
+[    7.019386] mmc0:  (  (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.019416] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    7.019428] mmc0: starting CMD18 arg 0036b0f0 flags 000000b5
+[    7.019439] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    7.019449] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.019735] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.019748] mmc0:     4096 bytes transferred: 0
+[    7.019758] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.019786] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    7.019796] mmc0: starting CMD18 arg 00763158 flags 000000b5
+[    7.019805] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    7.019815] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.020273] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.020286] mmc0:     4096 bytes transferred: 0
+[    7.020296] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.020328] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    7.020338] mmc0: starting CMD18 arg 0036b110 flags 000000b5
+[    7.020347] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    7.020357] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.020657] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.020671] mmc0:     4096 bytew transferred: 0
+[    7.020682] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.021532] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    7.021543] mmc0: starting CMD18 arg 00765248 flags 000000b5
+[    7.021554] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    7.021563] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.021851] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.021864] mmc0:     4096 bytes transferred: 0
+[    7.021875] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.022068] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    7.022079] mmc0: starting CMD18 arg 00763250 flags 000000b5
+[    7.022090] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    7.022100] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.022390] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.022400] mmc0:     4096 bytes transferred: 0
+[    7.022409] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.022450] <mmc0: starting CMD23 arg 00000010 flags 00000015>
+[    7.022460] mmc0: starting CMD18 arg 007d3f48 flags 000000b5
+[    7.022470] mmc0:     blksz 512 blocks 36 flags 00000200 tsac 100 ms nsac 0
+[    7.022480] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.023005] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.023019] mmc0:     8192 bytes transferred: 0
+[    7.023028] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.023464] <mmc0: starting CMD23 arg 00000100 flags 00000015>
+[    7.023476] mmc0: starting CMD18 arg 00353800 flags 000000b5
+[    7.023486] mmc0:     blksz 512 blocks 256 flags 00000200 tsac 100 ms nsac 0
+[    7.023497] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.025654] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.025667] mmc0:     131072 bytes transferred: 0
+[    7.025676] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.025718] <mmc0: starting CMD23 arg 000000b0 flags 00000015>
+[    7.025730] mmc0: starting CMD18 arg 00355b60 flags 000000b5
+[    7.025742] mmc0:     blksz 512 blocks 176 flags 00000200 tsac 100 ms nsac 0
+[    7.025755] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.027024] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.027034] mmc0:     90112 bytes transferred: 0
+[    7.027041] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.028044] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    7.028055] mmc0: starting CMD18 arg 00365100 flags 000000b5
+[    7.028064] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    7.028074] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.028367] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.028378] mmc0:     4096 bytes transferred: 0
+[    7.028387] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.029049] <mmc0: starting CMD23 arg 00000100 flags 00000015>
+[    7.029060] mmc0: starting CMD18 arg 008b3400 flags 000000b5
+[    7.029068] mmc0:     blksz 512 blocks 256 flags 00000200 tsac 100 ms nsac 0
+[    7.029077] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.030830] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.030843] mmc0:     131072 bytes transferred: 0
+[    7.030852] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.030875] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    7.030884] mmc0: starting CMD18 arg 00363cd8 flags 000000b5
+[    7.030893] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    7.030902] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.031176] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.031186] mmc0:     4096 bytes transferred: 0
+[    7.031194] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.031263] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    7.031271] mmc0: starting CMD18 arg 00367258 flags 000000b5
+[    7.031279] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    7.031287] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.03156)] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.031579] mmc0:     4096 bytes transferred: 0
+[    7.031588] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.031610] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    7.031618] mmc0: starting CMD18 arg 00362ec8 flags 000000b5
+[    7.031627] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    7.031637] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.031916] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.031924] mmc0:     4096 bytes transferred: 0
+[    7.031932] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.031951] <mmc0: starting CMD23 arg 00000100 flags 00000015>
+[    7.031960] mmc0: starting CMD18 arg 008b3500 flags 000000b5
+[    7.031967] mmc0:     blksz 512 blocks 256 flags 00000200 tsac 100 ms nsac 0
+[    7.031977] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.033738] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.033750] mmc0:     131072 bytes transferred: 0
+[    7.033760] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.033781] <mmc0: starting CMD2# arg 00000008 flags 00000015>
+[    7.033790] mmc0: starting CMD18 arg 003646c8 flags 000000b5
+[    7.033799] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    7.033808] mmc0:     CMD12 arg 00000000 flags 0000049d
+[   `7.034081] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.034090] mmc0:     4096 bytes transferred: 0
+[    7.034099] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.034123] <mmc0: starting CMD23 arg 000000f8 flags 00000015>
+[    7.034132] mmc0: starting CMD18 arg 00355208 flags 000000b5
+[    7.034140] mmc0:     blksz 512 blocks 248 flags 00000200 tsac 100 ms nsac 0
+[    7.034148] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.035865] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.035877] mmc0:     126976 bytes transferred: 0
+[    7.035887] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.035908] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    7.035917] mmc0: starting CMD18 arg 00362ed8 flags 000000b5
+[    7.035927] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    7.035936] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.036217] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.036227] mmc0:     4096 bytes transferred: 0
+[    7.036234] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.036334] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    7.036343] mmc0: starting CMD25 arg 007fa158 flags 000000b5
+[    7.036351] mmc0:     blksz 512 blocks 8 flags 00000100 tsac 1600 ms nsac 0
+[    7.036359] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.036534] mmc0: req done (CMD25): 0: 00000900 00000000 00000000 00000000
+[    7.036545] mmc0:     4096 bytes transferred: 0
+[    7.036553] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.036849] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    7.036870] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    7.036888] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    7.036908] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    7.036924] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    7.036941] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    7.036955] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    7.036972] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    7.036989] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    7.037009] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    7.037025] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    7.037043] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    7.037057] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    7.037075] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    7.037090] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    7.037109] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    7.037125] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    7.037143] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    7.037161] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    7.037182] mmc0: Req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    7.037200] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    7.037219] mmc0: req done (CMD13): 0: 00000e00 00000000 00000000 00000000
+[    7.037236] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    7.037255] mmc0: req done (CMD13): 0: 00000900 00000000 00000000 00000000
+[    7.037271] <mmc0: starting CMD23 arg 00000028 flags 00000015>
+[    7.037279] mmc0: starting CMD18 arg 008b3600 flags 000000b5
+[    7.037288] mmc0:     blksz 512 blocks 40 flags 00000200 tsac 100 ms nsac 0
+[    7.037296] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.037808] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.037819] mmc0:     20480 bytes transferred: 0
+[    7.037827] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.038759] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    7.038770] mmc0: starting CMD18 arg 003646f0 flags 000000b5
+[    7.038779] mmc0:     Blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    7.038788] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.039064] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.039074] mmc0:     4096 bytes transferred: 0[    7.039082] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.039328] <mmc0: starting CMD23 arg 00000058 flags 00000015>
+[    7.039336] mmc0: starting CMD18 arg 007e0478 flags 000000b5
+[    7.039346] mmc0:     blksz 512 blocks 88 flags 00000200 tsac 100 ms nsac 0
+[    7.039356] mmc0:     CmD12 arg 00000000 flags 0000049d
+[    7.040147] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.040157] mmc0:     45056 bytes transferred: 0
+[    7.040166] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.040189] <mmc0: starting CMD23 arg 00000020 flags 00000015>
+[    7.040197] mmc0: starting CMD18 arg 008b8750 flags 000000b5
+[    7.040207] mmc0:     blksz 512 blocks 32 flags 00000200 tsac 100 ms nsac 0
+[    7.040216] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.040649] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.040658] mmc0:     16384 bytes transferred: 0
+[    7.040665] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.040685] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    7.040693] mmc0: starting CMD18 arg 008b4c30 flags 000000b5
+[    7.040701] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    7.040708] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.041003] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.041013] mmc0:     4096 bytes transferred: 0
+[    7.041021] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.041043] <mmc0: suarting CMD23 arg 00000008 flags 00000015>
+[    7.041053] mmc0: starting CMD18 arg 00367930 flags 000000b5
+[    7.041061] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    7.041069] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.041375] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.041385] mmc0:     4096 bytes transferred: 0
+[    7.041392] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.041422] <mmc0: starting CMD23 arg 00000038 flags 00000015>
+[    7.041430] mmc0: starting CMD18 arg 007e0cc8 flags 000000b5
+[    7.041438] mmc0:     blksz 512 blocks 56 flags 00000200 tsac 100 ms nsac 0
+[    7.041446] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.042032] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.042042] mmc0:     28672 bytes transferred: 0
+[    7.042050] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.043531] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    7.043540] mmc0: starting CMD18 arg 008b4df8 flags 000000b5
+[    7.043548] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    7.043556] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.043903] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.043912] mmc0:     4096 bytes transferred: 0
+[    7.043920] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.044075] <mmc0: starting CMD23 arg 00000010 flags 00000015>
+[    7.044084] mmc0: starting CMD18 arg 008b7bc0 flags 000000b5
+[    7.044092] mmc0:     blksz 512 blocks 16 flags 00000200 tsac 100 ms nsac 0
+[    7.044101] mmc0:     CMD12 arg 00000000 flags 0000049d[    7.044432] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.044441] mmc0:     8192 bytes transferred: 0
+[    7.044448\ mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.044468] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    7.044475] mmc02 starting CMD18 arg 003650f0 flags 000000b5
+[    7.044483] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    7.044491] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.044776] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.044784] mmc0:     4096 bytes transferred: 0
+[    7.044791] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.044842] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    7.044851] mmc0: starting CMD25 arg 007fa1d8 flags 000000b5
+[    7.044861] mmc0:     blksz 512 blocks 8 flags 00000100 tsac 1600 ms nsac 0
+[    7.044869] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.045041] mmc0: req done (CMD25): 0: 00000900 00000000 00000000 00000000
+[    7.045050] mmc0:     4096 bytes transferred: 0
+[    7.045058] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.045701] mmc0: starting CMD13 arg 00010000 flags 00000195
+[    7.045729] mmc0: req done (CMD13): 0: 00000900 00000000 00000000 00000000
+[    7.045748] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    7.045757] mmc0: starting CMD18 arg 008d5660 flags 000000b5
+[    7.045766] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    7.045774] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.046077] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.046087] mmc0:     4096 bytes transferred: 0
+[    7.046096] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.046277] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    7.046285] mmc0: starting CMD18 arg 00367940 flags 000000b5
+[    7.046293] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    7.046301] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.046590] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.046599] mmc0:     4096 bytes transferred: 0
+[    7.046606] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.046700] <mmc0: starting CMD23 arg 00000038 flags 00000015>
+[    7.046708] mmc0: starting CMD18 arg 008cc040 flags 000000b5
+[    7.046717] mmc0:     blksz 512 blocks 56 flags 00000200 tsac 100 ms nsac 0
+[    7.046725] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.047308] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.047318] mmc0:     28672 bytes transferred: 0
+[    7.047325] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.047384] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    7.047393] mmc0: starting CMD18 arg 00367098 flags 000000b5
+[    7.047401] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    7.047409] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.047700] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.047711] mmc0:     4096 bytes transferred: 0
+[    7.47719] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.047741] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    7.047749] mmc0: starting CMD18 arg 008d8b60 flags 000000b5
+[    7.047757] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    7.047765] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.048064] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.048073] mmc0:     4096 bytes transferred: 0
+[    7.048082] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.050173] <mmc0: starting CMD23 arg 00000048 flags 00000015>
+[    7.050184] mmc0: starting CMD18 arg 00395010 flags 000000b5
+[    7.050193] mmc0:     blksz 512 blocks 72 flags 00000200 tsac 100 ms nsac 0
+[    7.050202] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.050953] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.050964] mmc0:     36864 bytes transferred: 0
+[    7.050973] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.050998] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    7.051007] mmc0: starting CMD18 arg 008e1910 flags 000000b5
+[    7.051015] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms n3ac 0
+[    7.051023] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.051317] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.051327] mmc0:     4096 bytes transferred: 0
+[    7.051335] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.051359] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    7.051367] mmc0: starting CMD18 arg 003646f8 flags 000000b5
+[    7.051376] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    7.051386] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.051667] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.051676] mmc0:     4096 bytes transferred: 0
+S    7.051683] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.051708] <mmc0: starting CMD23 arg 00000058 flags 00000015>
+[    7.051717] mmc0: starting CMD18 arg 00355b08 flags 000000b5
+[    7.051725] mmc0:     blksz 512 blocks 88 flags 00000200 tsac 100 ms nsac 0
+[    7.051733] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.052527] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.052538] mmc0:     45056 bytes transferred: 0
+[    7.052547] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.054245] <mmc0: starting CMD23 arg 00000020 flags 00000015>
+[    7.054256] mmc0: starting CMD18 arg 003b7a60 flags 000000b5
+[    7.054265] mmc0:     blksz 512 blocks 32 flags 00000200 tsac 100 ms nsac 0
+[    7.054275] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.054774] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.054784] mmc0:     16384 bytes transferred: 0
+[    7.054793] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.055883] <mmc0: starting CMD23 arg 00000008 flags 00000015>
+[    7.055893] mmc0: starting CMD18 arg 0092d000 flags 000000b5
+[    7.055904] mmc0:     blksz 512 blocks 8 flags 00000200 tsac 100 ms nsac 0
+[    7.055913] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.056211] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.056222] mmc0:     4096 bytes transferred: 0
+[    7.056230] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.056252] <mmc0: starting CMD23 arg 000000a0 flags 00000015>
+[    7.056261] mmc0: starting CMD18 arg 003bdbd8 flags 000000b5
+[    7.056270] mmc0:     blksz 512 blocks 160 flags 00000200 tsac 100 ms nsac 0
+[    7.056279] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.057474] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.057485] mmc0:     81920 bytes transferred: 0
+[    7.057493] mmc0:     (CMD12): 0: 00000000 00040000 00000000 00000000
+[    7.057514] <mmc0: starting CMD23 arg 000000c8 flags 00000015>
+[    7.057523] mmc0: starting CMD18 arg 003dfe00 flags 000000b5
+[    7.057531] mmc0:     blksz 512 blocks 200 flags 00000200 tsac 100 ms nsac 0[    7.057539] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.058954] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.058966] mmc0:     102400 bytes transferred: 0
+[    7.058975] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.058996] <mmc0: starting CMD23 arg 00000018 flags 00000015>
+[    7.059006] mmc0: starting CMD18 arg 003b7b60 flags 000000b5
+[    7.059016] mmc0:     blksz 512 blocks 24 flags 00000200 tsac 100 ms nsac 0
+[    7.059025] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.059411] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.059422] mmc0:     12288 bytes transferred: 0
+[    7.059430] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.059452] <mmc0: starting CMD23 arg 00000070 flags 00000015>
+[    7.059462] mmc0: starting CMD18 arg 003dc288 flags 000000b5
+[    7.059471] mmc0:     blksz 512 blocks 112 flags 00000200 tsac 100 ms nsac 0
+[    7.059479] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.060410] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.060421] mmc0:     57344 bytes transferred: 0
+[    7.060428] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.060452] <mmc0: starting CMD23 arg 00000018 flags 00000015>
+[    7.060460] mmc0: starting CMD18 arg 003b75d8 flags 000000b5
+[    7.060468] mmc0:     blksz 512 blocks 24 flags 00000200 tsac 100 ms nsac 0
+[    7.060476] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.060860] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.060871] mmc0:     12288 bytes transferred: 0
+[    7.060879] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.061085] <mmc0: starting CMD23 arg 00000100 flags 00000015>
+[    7.061094] mmc0: starting CMD18 arg 0041d200 flags 000000b5
+[    7.061102] mmc0:     blksz 512 blocks 256 flags 00000200 tsac 100 ms nsac 0
+[    7.061110] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.062885] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.062895] mmc0:     131072 bytes transferred: 0
+[    7.062903] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.062927] <mmc0: starting CMD23 arg 00000020 flags 00000015>
+[    7.062935] mmc0: starting CMD18 arg 003c3780 flags 000000b5
+[    7.062943] mmc0:     blksz 512 blocks 32 flags 00000200 tsac 100 ms nsac 0
+[    7.062951] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.063400] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.063409] mmc0:     16384 bytes transferred: 0
+[    7.063417] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.063443] <mmc0: starting CMD23 arg 00000018 flags 00000015>
+[    7.063451] mmc0: starting CMD18 arg 0051f420 flags 000000b5
+[    7.063461] mmc0:     blksz 512 blocks 24 flags 00000200 tsac 100 ms nsac 0
+[    7.063470] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.063873] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.063885] mmc0:     12288 bytes transferred: 0
+[    7.063893] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.063919] <mmc0: starting CMD23 arg 00000050 flags 00000015>
+[!   7.063927] mmc0: starting CMD18 arg 003d1c88 flags 000000b5
+[    7.063937] mmc0:     blksz 512 blocks 80 flags 00000200 tsac 100 ms nsac 0
+[    7.063945] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.064675] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.064686] mmc0:     40960 bytes transferred: 0
+[    7.064693] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.064718] <mmc0: starting CMD23 arg 00000010 flags 00000015>
+[    7.064727] mmc0: starting CMD18 arg 0041d300 flags 000000b5
+[    7.064735] mmc0:     blksz 512 blocks 16 flags 00000200 tsac 100 ms nsac 0
+[    7.064743] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.065078] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.065087] mmc0:     8192 bytes transferred: 0
+[    7.065095] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.065115] <mmc0: starting CMD23 arg 00000038 flags 00000015>
+[    7.065123] mmc0: starting CMD18 arg 003c7c38 flags 000000b5
+[    7.065131] mmc0:     blksz 512 blocks 56 flags 00000200 tsac 100 ms nsac 0
+[    7.065139] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    7.065755] mmc0: req done (CMD18): 0: 00000900 00000000 00000000 00000000
+[    7.065764] mmc0:     28672 bytes transferred: 0
+[    7.065773] mmc0:     (CMD12): 0: 00000000 00000000 00000000 00000000
+[    7.065795] <mmc0: starting CMD23 arg 00000100 flags 00000015>
+[    7.065804] mmc0: starting CMD18 arg 00754d08 flags 000000b5
+[    7.065814] mmc0:     blksz 512 blocks 256 flags 00000200 tsac 100 ms nsac 0
+[    7.065823] mmc0:     CMD12 arg 00000000 flags 0000049d
+[    8.569622] s5p_mfc_load_firmware:92: Firmware is not present in the /lib/firmware directory nor compiled in kernel
+[    8.592637] s5p_mfc_load_firmware:92: Firmware is not present in the /lib/firmware directory nor compiled in kernel
+[   10.168421] s5p-dp s5p-dp: EDID Read success!
+[  957.424167] Restarting system.
+    
