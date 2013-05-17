@@ -1,7 +1,7 @@
 /*
- * Lowlevel setup for SMDK5250 board based on S5PC520
+ * Architected Timer setup for SMDK5250 board based on EXYNOS5
  *
- * Copyright (C) 2012 Samsung Electronics
+ * Copyright (C) 2012 Christoffer Dall <cdall@cs.columbia.edu>
  *
  * See file CREDITS for list of people who contributed to this
  * project.
@@ -22,23 +22,24 @@
  * MA 02111-1307 USA
  */
 
+#include <common.h>
 #include <config.h>
-#include <asm/arch/cpu.h>
-	.globl lowlevel_init
-lowlevel_init:
-	/*
-	 * Set the stack pointer, although it will be overwriten by the caller
-	 * It seems we will not boot if this function is empty.
-	 */
+#include <asm/io.h>
+#include <asm/arch/clk.h>
+#include <asm/arch/clock.h>
+//#include <asm/arch/spl.h>
 
-	ldr	sp, =0x41f00000
-	str	pc, [sp]
+//#include "setup.h"
 
-	ldr	sp, =CONFIG_IRAM_STACK
-	stmdb	r13!, {ip, lr}
+void arch_timer_init(void)
+{
+	unsigned long cpuid, freq;
+	asm volatile("mrc	p15, 0, %[cpuid], c0, c1, 1":
+		     [cpuid] "=r" (cpuid));
 
-	ldmia   r13!, {r6, r7} 	
-	ldr	sp, =CONFIG_IRAM_STACK
-
-	mov     ip, r6
-	mov	pc, r7 
+	if ((cpuid >> 16) & 1) {
+		freq = 24000000;
+		asm volatile("mcr p15, 0, %[freq], c14, c0, 0" : :
+			     [freq] "r" (freq));
+	}
+}

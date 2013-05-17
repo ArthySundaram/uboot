@@ -156,8 +156,8 @@ void do_undefined_instruction (struct pt_regs *pt_regs)
 void do_software_interrupt (struct pt_regs *pt_regs)
 {
 	printf ("software interrupt\n");
-	show_regs (pt_regs);
-	bad_mode ();
+	//show_regs (pt_regs);
+	//bad_mode ();
 }
 
 void do_prefetch_abort (struct pt_regs *pt_regs)

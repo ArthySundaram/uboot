@@ -43,6 +43,7 @@ GLCOBJS	+= div0.o
 ifeq ($(CONFIG_SYS_GENERIC_BOARD),)
 COBJS-y += board.o
 endif
+COBJS-y += virt.o
 COBJS-y	+= bootm.o
 COBJS-y	+= cache.o
 COBJS-y	+= cache-cp15.o

@@ -24,7 +24,7 @@ PLATFORM_RELFLAGS += -fno-common -ffixed-r8 -mfloat-abi=hard
 
 # If armv7-a is not supported by GCC fall-back to armv5, which is
 # supported by more tool-chains
-PF_CPPFLAGS_ARMV7 := $(call cc-option, -march=armv7-a, -march=armv5)
+PF_CPPFLAGS_ARMV7 := $(call cc-option, -march=armv7-a)
 PLATFORM_CPPFLAGS += $(PF_CPPFLAGS_ARMV7)
 
 # =========================================================================

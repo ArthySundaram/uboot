@@ -88,6 +88,39 @@ void arch_lmb_reserve(struct lmb *lmb)
 
 static void announce_and_cleanup(void)
 {
+
+//VIRT ARMV7
+
+        switch(armv7_switch_hyp()) {
+
+                case 0:
+                        printf("entered HYP mode now\n");
+                        break;
+
+		case 1:
+			printf("CPU already in HYP mode\n");
+			break;
+
+                case 2:
+                        printf("HYP mode: Virtualization extensions not implemented \n");
+                        break;
+
+                case 3:
+                        printf("HYP mode: CPU not supported (must be cortex A 15 or A 7 \n");
+                        break;
+                case 4:
+                        printf("HYP mode: PERIPHBASE is above 4GB cannot access this \n");
+                        break;
+
+		case 5: 
+			printf("HYP mode switch unsuccessful\n");
+			break;
+
+                default:
+                        printf("something wierd happened\n");
+                        break;
+
+        }
 	printf("\nStarting kernel ...\n\n");
 	bootstage_mark_name(BOOTSTAGE_ID_BOOTM_HANDOFF, "start_kernel");
 

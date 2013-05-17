@@ -73,4 +73,14 @@ void v7_outer_cache_inval_all(void);
 void v7_outer_cache_flush_range(u32 start, u32 end);
 void v7_outer_cache_inval_range(u32 start, u32 end);
 
+#define CONFIG_SYSFLAGS_ADDR 0x02020000
+//#define CONFIG_SYSFLAGS_ADDR 0x1c010030
+//int armv7_switch_nonsec(void);
+
+int armv7_switch_hyp(void);
+void _smp_pen(void);
+//void _nonsec_gic_switch(void);
+
+void _hyp_gic_switch(void);
+
 #endif

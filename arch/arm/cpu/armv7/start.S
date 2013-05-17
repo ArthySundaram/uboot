@@ -32,6 +32,7 @@
 #include <asm-offsets.h>
 #include <config.h>
 #include <asm/system.h>
+//#include <asm/armv7.h>
 
 .globl _start
 _start: b	reset
@@ -39,7 +40,7 @@ _start: b	reset
 	ldr	pc, _software_interrupt
 	ldr	pc, _prefetch_abort
 	ldr	pc, _data_abort
-	ldr	pc, _not_used
+	ldr     pc, _hyp_trap
 	ldr	pc, _irq
 	ldr	pc, _fiq
 #ifdef CONFIG_SPL_BUILD
@@ -47,7 +48,7 @@ _undefined_instruction: .word _undefined_instruction
 _software_interrupt:	.word _software_interrupt
 _prefetch_abort:	.word _prefetch_abort
 _data_abort:		.word _data_abort
-_not_used:		.word _not_used
+_hyp_trap:		.word _hyp_trap
 _irq:			.word _irq
 _fiq:			.word _fiq
 _pad:			.word 0x12345678 /* now 16*4=64 */
@@ -56,7 +57,7 @@ _undefined_instruction: .word undefined_instruction
 _software_interrupt:	.word software_interrupt
 _prefetch_abort:	.word prefetch_abort
 _data_abort:		.word data_abort
-_not_used:		.word not_used
+_hyp_trap:		.word hyp_trap
 _irq:			.word irq
 _fiq:			.word fiq
 _pad:			.word 0x12345678 /* now 16*4=64 */
@@ -132,8 +133,11 @@ reset:
 	 * set the cpu to SVC32 mode
 	 */
 	mrs	r0, cpsr
+        and     r1, r0, #0x1f
+        teq     r1,  #0x1a
 	bic	r0, r0, #0x1f
-	orr	r0, r0, #0xd3
+	orrne	r0, r0, #0x13
+        orr     r0, r0, #0xc0
 	msr	cpsr,r0
 
 #if !defined(CONFIG_TEGRA2)
@@ -158,7 +162,12 @@ reset:
 #ifndef CONFIG_SKIP_LOWLEVEL_INIT
 	bl	cpu_init_cp15
 	bl	cpu_init_crit
+
 #endif
+	ldr     r0, =_start
+	mrc     p15, 0, r1, c0, c1, 1
+	ands    r1, r1, #030
+	mcrne   p15, 0, r0, c12, c0, 1
 
 /* Set stackpointer in internal RAM to call board_init_f */
 call_board_init_f:
@@ -507,9 +516,19 @@ undefined_instruction:
 
 	.align	5
 software_interrupt:
-	get_bad_stack_swi
-	bad_save_user_regs
-	bl	do_software_interrupt
+       mrc     p15, 0, r1, c1, c1, 0           @ read SCR
+       bic     r1, r1, #0x07f		
+       ldr    r0, =0x131
+	orr    r1, r1, r0 
+
+       mrc     p15, 0, r0, c12, c0, 0          @ save secure copy of VBAR
+       mcr     p15, 0, r1, c1, c1, 0           @ write SCR, switch to non-sec
+       isb
+
+       mcr     p15, 0, r0, c12, c0, 0          @ write non-secure copy of VBAR
+       mcr  p15, 4, r0, c12, c0, 0          @set HVBAR
+       isb
+       movs    pc, lr 
 
 	.align	5
 prefetch_abort:
@@ -524,10 +543,21 @@ data_abort:
 	bl	do_data_abort
 
 	.align	5
+/*
 not_used:
 	get_bad_stack
 	bad_save_user_regs
 	bl	do_not_used
+*/
+/*
+hyp_trap:
+	.byte 0x00, 0xe3, 0x0e, 0xe1
+	mov pc, lr 
+*/
+	.arch_extension virt
+hyp_trap:
+	mrs lr, elr_hyp
+	mov pc, lr
 
 #ifdef CONFIG_USE_IRQ
 
@@ -562,3 +592,78 @@ fiq:
 
 #endif /* CONFIG_USE_IRQ */
 #endif /* CONFIG_SPL_BUILD */
+
+	.arch armv7-a
+	.arch_extension sec
+	.arch_extension virt
+.globl _hyp_gic_switch
+.globl _smp_pen
+_smp_pen:
+	mrs r0, cpsr
+	orr r0, r0, #0xc0
+	msr cpsr, r0
+	mov lr, #0
+_hyp_gic_switch:
+       mrc     p15, 4, r2, c15, c0, 0          @ r2 = PERIPHBASE
+       add     r3, r2, #0x1000                 @ GIC dist i/f offset
+       mvn     r1, #0
+       str     r1, [r3, #0x80]                 @ allow private interrupts
+
+       mrc     p15, 0, r0, c0, c0, 0           @ MIDR
+       bfc     r0, #16, #8                     @ mask out variant, arch
+       bfc     r0, #0, #4                      @ and revision
+       movw    r1, #0xc070
+       movt    r1, #0x4100
+       cmp     r0, r1                          @ check for Cortex-A7
+       orr     r1, #0xf0
+       cmpne   r0, r1                          @ check for Cortex-A15
+       movne   r1, #0x100                      @ GIC CPU offset for A9
+       moveq   r1, #0x2000                     @ GIC CPU offset for A15/A7
+       add     r3, r2, r1                      @ r3 = GIC CPU i/f addr
+
+       mov     r1, #1
+       str     r1, [r3, #0]                    @ set GICC_CTLR[enable]
+       mov     r1, #0x80
+       str     r1, [r3, #4]                    @ set GICC_PIMR[7]
+	isb
+       movw    r1, #0x3fff
+       movt    r1, #0x0006
+       mcr     p15, 0, r1, c1, c1, 2           @ NSACR = all copros to non-sec
+      isb
+
+       ldr     r1, =_start
+       mcr     p15, 0, r1, c12, c0, 0          @ set VBAR
+       mcr     p15, 0, r1, c12, c0, 1          @ set MVBAR
+
+
+       isb
+       smc     #0                              @ call into MONITOR mode
+       isb 
+
+       mov     r1, #1
+       str     r1, [r3, #0]                    @ set GICC_CTLR[enable]
+       add     r2, r2, #0x1000                 @ GIC dist i/f offset
+       str     r1, [r2]                        @ allow private interrupts
+
+
+	mov   r2, lr
+	mov r1,  sp
+	hvc #0
+	isb
+	mov  sp, r1
+	mov  lr, r2
+
+	cmp   lr, #0
+	movne  pc, lr
+
+_ack_int:
+	ldr  r1, [r3, #0x0c]
+	str  r1, [r3, #0x10]
+	adr  r1, _smp_pen
+waitloop:
+	wfi
+	ldr   r0, =0x02020000
+	ldr   r0, [r0]
+	cmp   r0, r1
+	beq  waitloop
+	mov  pc, r0

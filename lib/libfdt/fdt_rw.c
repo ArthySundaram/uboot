@@ -321,10 +321,14 @@ int fdt_add_subnode_namelen(void *fdt, int parentoffset,
 	FDT_RW_CHECK_HEADER(fdt);
 
 	offset = fdt_subnode_offset_namelen(fdt, parentoffset, name, namelen);
-	if (offset >= 0)
+	if (offset >= 0) {
+		puts("FDT_ERR_EXISTS");
 		return -FDT_ERR_EXISTS;
-	else if (offset != -FDT_ERR_NOTFOUND)
+	}
+	else if (offset != -FDT_ERR_NOTFOUND) {
+		puts("FDT_ERR_NOTFOUND");
 		return offset;
+	}
 
 	/* Try to place the new node after the parent's properties */
 	fdt_next_tag(fdt, parentoffset, &nextoffset); /* skip the BEGIN_NODE */
@@ -337,8 +341,10 @@ int fdt_add_subnode_namelen(void *fdt, int parentoffset,
 	nodelen = sizeof(*nh) + FDT_TAGALIGN(namelen+1) + FDT_TAGSIZE;
 
 	err = _fdt_splice_struct(fdt, nh, 0, nodelen);
-	if (err)
+	if (err) {
+		puts("SPLICE STRUCT");
 		return err;
+	}
 
 	nh->tag = cpu_to_fdt32(FDT_BEGIN_NODE);
 	memset(nh->name, 0, FDT_TAGALIGN(namelen+1));

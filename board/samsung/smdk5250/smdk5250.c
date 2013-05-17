@@ -51,6 +51,10 @@
 #error "CONFIG_EXYNOS_DISPLAYPORT must be defined for smdk5250"
 #endif
 
+#include <asm/armv7.h>
+
+//extern int armv7_switch_nonsec(void);
+
 DECLARE_GLOBAL_DATA_PTR;
 
 struct local_info {
@@ -948,9 +952,5 @@ void tracens(void)
 }
 void arch_preboot_os(void)
 {
-	printf("enter_ns\n");
-	enter_ns();
-	printf("enter_hyp\n");
-	enter_hyp();
-	printf("Entered HYP mode\n");
+	
 }

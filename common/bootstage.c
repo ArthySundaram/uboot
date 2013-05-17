@@ -202,8 +202,10 @@ static int add_bootstages_devicetree(struct fdt_header *blob)
 	 * The address of flat device tree is set up by the command bootm.
 	 */
 	bootstage = fdt_add_subnode(blob, 0, "bootstage");
-	if (bootstage < 0)
+	if (bootstage < 0) {
+		puts("bootstage add subnode");
 		return -1;
+       }
 
 	/*
 	 * Insert the timings to the device tree in the reverse order so
@@ -222,14 +224,19 @@ static int add_bootstages_devicetree(struct fdt_header *blob)
 
 		/* add properties to the node. */
 		if (fdt_setprop_string(blob, node, "name",
-				get_record_name(buf, sizeof(buf), rec)))
+				get_record_name(buf, sizeof(buf), rec))) {
+			puts("setprop_string failed");
 			return -1;
+                }
 
 		/* Check if this is a 'mark' or 'accum' record */
 		if (fdt_setprop_cell(blob, node,
 				rec->start_us ? "accum" : "mark",
-				rec->time_us))
+				rec->time_us)) {
+
+			puts("mark or accum");
 			return -1;
+  		}
 	}
 
 	return 0;
